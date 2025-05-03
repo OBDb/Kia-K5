@@ -1,0 +1,25 @@
+generations:
+  - name: "First Generation (as Optima/Magentis, MS)"
+    start_year: 2000
+    end_year: 2005
+    description: "The vehicle that would eventually become the K5 was initially introduced as the Optima (or Magentis in some markets), representing Kia's first entry into the mid-size sedan segment. Based on a platform shared with the Hyundai Sonata, it featured conservative styling typical of early 2000s Korean vehicles. Available with four-cylinder and V6 engine options depending on the market, paired with automatic or manual transmissions. The interior was spacious but featured relatively basic materials and design. This generation established Kia in the mid-size sedan segment, though primarily as a value alternative to established competitors."
+
+  - name: "Second Generation (as Optima/Magentis, MG)"
+    start_year: 2005
+    end_year: 2010
+    description: "The second-generation Optima featured more distinctive styling while remaining relatively conservative compared to later models. Built on an improved platform shared with the Hyundai Sonata, it offered better handling and refinement. Engine options typically included four-cylinder and V6 units with improved efficiency and performance. The interior saw enhancements in materials, design, and feature content, reflecting Kia's push for improved quality. This generation continued to position the Optima as a value-oriented mid-size sedan, with gradually improving reputation but still not challenging segment leaders in terms of design or desirability."
+
+  - name: "Third Generation (as Optima, TF)"
+    start_year: 2010
+    end_year: 2015
+    description: "The third-generation Optima represented a revolutionary change in design and market positioning. Styled under the direction of Peter Schreyer, it featured bold, European-influenced design with a sleek, coupe-like roofline and distinctive details. Built on an all-new platform, it offered improved dynamics, refinement, and safety. Engine options in most markets included advanced four-cylinder units, with a turbocharged 2.0L offering V6-like performance with better efficiency, plus hybrid variants introduced later. The interior featured a driver-focused cockpit with premium materials and advanced technology for its time. This generation transformed the Optima's image from practical transportation to a stylish, desirable mid-size sedan that could compete with established market leaders on more than just price."
+
+  - name: "Fourth Generation (as Optima/K5, JF)"
+    start_year: 2015
+    end_year: 2020
+    description: "The fourth-generation model (called K5 in South Korea and some other markets, while retaining the Optima name in others) evolved the bold styling of its predecessor with more refined execution. Built on an updated platform with increased use of high-strength steel, it offered improved structural rigidity, safety, and NVH characteristics. Engine options varied by market but typically included efficient and powerful four-cylinder units, including turbocharged options and hybrid/plug-in hybrid variants. The interior featured improved materials, design, and technology, with available features like a panoramic sunroof, ventilated seats, and advanced driver assistance systems. This generation maintained the model's position as a stylish alternative in the mid-size sedan segment, though market preference was increasingly shifting toward SUVs."
+
+  - name: "Fifth Generation (as K5, DL3)"
+    start_year: 2020
+    end_year: null
+    description: "The current generation adopted the K5 name globally (except in China where it remains the Optima), featuring dramatic styling with a fastback silhouette, aggressive front fascia with 'tiger face' evolution, and distinctive 'heartbeat' LED daytime running lights. Built on Kia's N3 platform, it's lower, wider, and longer than its predecessor with improved dynamics and refinement. Engine options in North America include a standard 1.6L turbocharged four-cylinder and a more powerful 2.5L turbocharged unit in the GT model producing 290 HP, paired with eight-speed automatic transmissions (standard or dual-clutch depending on model). All-wheel drive is available for the first time in some markets. The interior features a driver-focused horizontal layout with available 10.25-inch touchscreen, 12.3-inch digital instrument cluster, and premium features like a panoramic sunroof and Bose audio system. Advanced technology includes wireless Apple CarPlay/Android Auto, Digital Key, and a comprehensive suite of driver assistance systems. Despite critical acclaim for its design, performance, and features, the K5 faces challenging market conditions as consumer preferences continue to shift toward SUVs and crossovers, leading to its discontinuation in the Canadian market after 2023, though it remains available in the United States and other global markets."
