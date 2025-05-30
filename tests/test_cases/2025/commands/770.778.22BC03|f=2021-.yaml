@@ -1,0 +1,22 @@
+command_id: 770.778.22BC03|f=2021-
+test_cases:
+- response: |-
+    778100862BC03D00000
+    778210000AAAAAAAAAA
+  expected_values:
+    KIA_DOOR_FL_V2: 0
+    KIA_DOOR_FR_V2: 0
+    KIA_DOOR_RL_V2: 0
+    KIA_DOOR_RR_V2: 0
+    KIA_HANDBRAKE_V2: 0
+    KIA_TRUNK_V2: 0
+- response: |-
+    778100862BC03D00000
+    778210003AAAAAAAAAA
+  expected_values:
+    KIA_DOOR_FL_V2: 0
+    KIA_DOOR_FR_V2: 0
+    KIA_DOOR_RL_V2: 1
+    KIA_DOOR_RR_V2: 0
+    KIA_HANDBRAKE_V2: 0
+    KIA_TRUNK_V2: 0
