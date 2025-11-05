@@ -2,6 +2,34 @@ command_id: 7E0.7E8.22E004
 test_cases:
 - expected_values:
     KIA_22E004: 100
+  response: "7E8 10 1A 62 E0 04 FF FF 07 \n7E8 21 00 FD D0 C9 70 F4 76 \n7E8 22 FA
+    80 F0 80 B0 D8 F3 \n7E8 23 00 10 32 10 10 00 AA "
+- expected_values:
+    KIA_22E004: 100
+  response: "7E8 10 1A 62 E0 04 FF FF 07 \n7E8 21 00 FD D0 C9 70 F4 76 \n7E8 22 FB
+    80 F0 80 B0 D8 F3 \n7E8 23 00 10 32 10 10 00 AA "
+- expected_values:
+    KIA_22E004: 100
+  response: "7E8 10 1A 62 E0 04 FF FF 07 \n7E8 21 00 FD D0 C9 70 F4 76 \n7E8 22 FB
+    80 F0 80 B0 D8 F7 \n7E8 23 00 10 32 10 10 00 AA "
+- expected_values:
+    KIA_22E004: 100
+  response: "7E8 10 1A 62 E0 04 FF FF 07 \n7E8 21 00 FD DD C9 70 F0 76 \n7E8 22 FA
+    80 F0 80 B0 D8 F7 \n7E8 23 00 10 32 10 10 00 AA "
+- expected_values:
+    KIA_22E004: 100
+  response: "7E8 10 1A 62 E0 04 FF FF 07 \n7E8 21 00 FD DD C9 70 F2 76 \n7E8 22 FB
+    80 F0 80 B0 D4 F7 \n7E8 23 00 10 32 10 10 00 AA "
+- expected_values:
+    KIA_22E004: 100
+  response: "7E8 10 1A 62 E0 04 FF FF 07 \n7E8 21 00 FD DD C9 70 F2 76 \n7E8 22 FB
+    80 F0 80 B0 DC F3 \n7E8 23 00 10 32 10 10 00 AA "
+- expected_values:
+    KIA_22E004: 100
+  response: "7E8 10 1A 62 E0 04 FF FF 07 \n7E8 21 00 FD DD C9 70 F8 76 \n7E8 22 FA
+    80 F0 80 B0 D8 F3 \n7E8 23 00 10 32 10 10 00 AA "
+- expected_values:
+    KIA_22E004: 100
   response: |-
     7E8101A62E004FFFF07
     7E82100F0D8C170F172

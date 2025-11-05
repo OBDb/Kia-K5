@@ -7,6 +7,22 @@ test_cases:
     KIA_DOOR_RR: 0
     KIA_HANDBRAKE: 0
     KIA_TRUNK: 0
+  response: "778 10 08 62 BC 03 D0 00 00 \n778 21 00 00 AA AA AA AA AA "
+- expected_values:
+    KIA_DOOR_FL: 0
+    KIA_DOOR_FR: 0
+    KIA_DOOR_RL: 0
+    KIA_DOOR_RR: 0
+    KIA_HANDBRAKE: 0
+    KIA_TRUNK: 1
+  response: "778 10 08 62 BC 03 D0 00 00 \n778 21 00 03 AA AA AA AA AA "
+- expected_values:
+    KIA_DOOR_FL: 0
+    KIA_DOOR_FR: 0
+    KIA_DOOR_RL: 0
+    KIA_DOOR_RR: 0
+    KIA_HANDBRAKE: 0
+    KIA_TRUNK: 0
   response: |-
     778100862BC03D00000
     778210000AAAAAAAAAA
