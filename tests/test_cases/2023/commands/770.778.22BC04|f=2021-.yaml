@@ -1,0 +1,72 @@
+command_id: 770.778.22BC04|f=2021-
+test_cases:
+- expected_values:
+    K5_BELT_RL: 1
+    K5_BELT_RM: 1
+    K5_BELT_RR: 1
+    K5_GEAR_R: 0
+    K5_LOCK_FL: 0
+    K5_LOCK_FR: 0
+  response: |-
+    778100B62BC04302370
+    778212000000E00AAAA
+- expected_values:
+    K5_BELT_RL: 0
+    K5_BELT_RM: 0
+    K5_BELT_RR: 0
+    K5_GEAR_R: 0
+    K5_LOCK_FL: 0
+    K5_LOCK_FR: 0
+  response: |-
+    778100B62BC04302700
+    778212000000000AAAA
+- expected_values:
+    K5_BELT_RL: 0
+    K5_BELT_RM: 0
+    K5_BELT_RR: 0
+    K5_GEAR_R: 0
+    K5_LOCK_FL: 0
+    K5_LOCK_FR: 0
+  response: |-
+    778100B62BC04302700
+    778212000600000AAAA
+- expected_values:
+    K5_BELT_RL: 0
+    K5_BELT_RM: 0
+    K5_BELT_RR: 0
+    K5_GEAR_R: 0
+    K5_LOCK_FL: 0
+    K5_LOCK_FR: 0
+  response: |-
+    778100B62BC04302700
+    778212000800000AAAA
+- expected_values:
+    K5_BELT_RL: 0
+    K5_BELT_RM: 0
+    K5_BELT_RR: 0
+    K5_GEAR_R: 0
+    K5_LOCK_FL: 1
+    K5_LOCK_FR: 0
+  response: |-
+    778100B62BC04302700
+    778212008000000AAAA
+- expected_values:
+    K5_BELT_RL: 0
+    K5_BELT_RM: 0
+    K5_BELT_RR: 0
+    K5_GEAR_R: 0
+    K5_LOCK_FL: 1
+    K5_LOCK_FR: 1
+  response: |-
+    778100B62BC04302700
+    77821200C000000AAAA
+- expected_values:
+    K5_BELT_RL: 0
+    K5_BELT_RM: 0
+    K5_BELT_RR: 0
+    K5_GEAR_R: 0
+    K5_LOCK_FL: 1
+    K5_LOCK_FR: 1
+  response: |-
+    778100B62BC04302700
+    77821200C600000AAAA
