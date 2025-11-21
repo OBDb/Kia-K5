@@ -1,7 +1,8 @@
 command_id: 7E0.7E8.22E001
 test_cases:
 - expected_values:
-    K5_EOT: 62.25276
+    K5_EIT: 31.5
+    K5_EOT: 62.25
   response: |-
     7E8105F62E001FBBDFB
     7E821E0B7B700000000
@@ -18,7 +19,8 @@ test_cases:
     7E82C00000000000000
     7E82D0000000000AAAA
 - expected_values:
-    K5_EOT: 99.00368
+    K5_EIT: 49.5
+    K5_EOT: 99
   response: |-
     7E8105F62E001FBBDFB
     7E821E0BABA00000000
@@ -35,7 +37,8 @@ test_cases:
     7E82C00000000000000
     7E82D0000000000AAAA
 - expected_values:
-    K5_EOT: 71.25298
+    K5_EIT: 45
+    K5_EOT: 71.25
   response: |-
     7E8105F62E001FBBDFB
     7E821E0BABA00000000
@@ -52,7 +55,8 @@ test_cases:
     7E82C00000000000000
     7E82D0000000000AAAA
 - expected_values:
-    K5_EOT: 45.75234
+    K5_EIT: 32.25
+    K5_EOT: 45.75
   response: |-
     7E8105F62E001FBBDFF
     7E821E1B1B1C53E0D49
@@ -69,7 +73,8 @@ test_cases:
     7E82C00000000000000
     7E82D0000000000AAAA
 - expected_values:
-    K5_EOT: 96.75362
+    K5_EIT: 52.5
+    K5_EOT: 96.75
   response: |-
     7E8105F62E001FBBDFF
     7E821E1B2B1BA541048
@@ -86,7 +91,8 @@ test_cases:
     7E82C00000000000000
     7E82D0000000000AAAA
 - expected_values:
-    K5_EOT: 46.50236
+    K5_EIT: 30
+    K5_EOT: 46.5
   response: |-
     7E8105F62E001FBBDFF
     7E821E1B7B7C700004F
@@ -103,7 +109,8 @@ test_cases:
     7E82C00000000000000
     7E82D0000000000AAAA
 - expected_values:
-    K5_EOT: 91.50349
+    K5_EIT: 21.75
+    K5_EOT: 91.5
   response: |-
     7E8105F62E001FBBDFF
     7E821E1B9B9AE5C0C4E
@@ -120,7 +127,8 @@ test_cases:
     7E82C00000000000000
     7E82D0000000000AAAA
 - expected_values:
-    K5_EOT: 90.00345
+    K5_EIT: 27.75
+    K5_EOT: 90
   response: |-
     7E8105F62E001FBBDFF
     7E821E1B9B9B35C0B4A
@@ -137,7 +145,8 @@ test_cases:
     7E82C00000000000000
     7E82D0000000000AAAA
 - expected_values:
-    K5_EOT: 96.75362
+    K5_EIT: 26.25
+    K5_EOT: 96.75
   response: |-
     7E8105F62E001FBBDFF
     7E821E1BABAB3000049
@@ -154,7 +163,8 @@ test_cases:
     7E82C00000000000000
     7E82D0000000000AAAA
 - expected_values:
-    K5_EOT: 89.25343
+    K5_EIT: 39
+    K5_EOT: 89.25
   response: |-
     7E8105F62E001FBBDFF
     7E821E1BABAB8000049
@@ -171,7 +181,8 @@ test_cases:
     7E82C00000000000000
     7E82D0000000000AAAA
 - expected_values:
-    K5_EOT: 93.00353
+    K5_EIT: 56.25
+    K5_EOT: 93
   response: |-
     7E8105F62E001FBBDFF
     7E821E1BABACC000049
@@ -188,7 +199,8 @@ test_cases:
     7E82C00000000000000
     7E82D0000000000AAAA
 - expected_values:
-    K5_EOT: 12.75152
+    K5_EIT: 12
+    K5_EOT: 12.75
   response: |-
     7E8105F62E001FBBDFF
     7E821E1BCBBAB580F5F
@@ -205,7 +217,8 @@ test_cases:
     7E82C00000000000000
     7E82D0000000000AAAA
 - expected_values:
-    K5_EOT: 96.75362
+    K5_EIT: 35.25
+    K5_EOT: 96.75
   response: |-
     7E8105F62E001FBBDFF
     7E821E1BDBDBA060C4E
@@ -222,7 +235,8 @@ test_cases:
     7E82C00000000000000
     7E82D0000000000AAAA
 - expected_values:
-    K5_EOT: 93.75354
+    K5_EIT: 45.75
+    K5_EOT: 93.75
   response: |-
     7E8105F62E001FBBDFF
     7E821E1C0BEFF300C4E
@@ -239,7 +253,8 @@ test_cases:
     7E82C00000000000000
     7E82D0000000000AAAA
 - expected_values:
-    K5_EOT: 90.75347
+    K5_EIT: 38.25
+    K5_EOT: 90.75
   response: |-
     7E8105F62E001FBBDFF
     7E821E1C4C4B8500B4E
@@ -256,7 +271,8 @@ test_cases:
     7E82C00000000000000
     7E82D0000000000AAAA
 - expected_values:
-    K5_EOT: 31.50199
+    K5_EIT: 22.5
+    K5_EOT: 31.5
   response: |-
     7E8105F62E001FBBDFF
     7E821E1C5C4ABE80C55
@@ -273,7 +289,8 @@ test_cases:
     7E82C00000000000000
     7E82D0000000000AAAA
 - expected_values:
-    K5_EOT: 90.00345
+    K5_EIT: 22.5
+    K5_EOT: 90
   response: |-
     7E8105F62E001FBBDFF
     7E821E1C9C9BD7C0B50
@@ -290,7 +307,8 @@ test_cases:
     7E82C00000000000000
     7E82D0000000000AAAA
 - expected_values:
-    K5_EOT: 98.25366
+    K5_EIT: 35.25
+    K5_EOT: 98.25
   response: |-
     7E8105F62E001FBBDFF
     7E821E1CBCAB0E40B4E
@@ -307,7 +325,8 @@ test_cases:
     7E82C00000000000000
     7E82D0000000000AAAA
 - expected_values:
-    K5_EOT: 66.75287
+    K5_EIT: 21
+    K5_EOT: 66.75
   response: |-
     7E8105F62E001FBBDFF
     7E821E1CCCCB0582564
@@ -324,7 +343,8 @@ test_cases:
     7E82C00000000000000
     7E82D0000000000AAAA
 - expected_values:
-    K5_EOT: 103.50379
+    K5_EIT: 39
+    K5_EOT: 103.5
   response: |-
     7E8105F62E001FBBDFF
     7E821E1CCCCC2302464
@@ -341,7 +361,8 @@ test_cases:
     7E82C00000000000000
     7E82D0000000000AAAA
 - expected_values:
-    K5_EOT: 63.00278
+    K5_EIT: 44.25
+    K5_EOT: 63
   response: |-
     7E8105F62E001FBBDFF
     7E821E1CCCCC5260C4E
@@ -358,7 +379,8 @@ test_cases:
     7E82C00000000000000
     7E82D0000000000AAAA
 - expected_values:
-    K5_EOT: 78.00315
+    K5_EIT: 52.5
+    K5_EOT: 78
   response: |-
     7E8105F62E001FBBDFF
     7E821E1CCCCCC5A1450
@@ -375,7 +397,8 @@ test_cases:
     7E82C00000000000000
     7E82D0000000000AAAA
 - expected_values:
-    K5_EOT: 90.00345
+    K5_EIT: 24
+    K5_EOT: 90
   response: |-
     7E8105F62E001FBBDFF
     7E821E1CCCDB002244F
@@ -392,7 +415,8 @@ test_cases:
     7E82C00000000000000
     7E82D0000000000AAAA
 - expected_values:
-    K5_EOT: 84.75332
+    K5_EIT: 19.5
+    K5_EOT: 84.75
   response: |-
     7E8105F62E001FBBDFF
     7E821E1CCCDBD582864
@@ -409,7 +433,8 @@ test_cases:
     7E82C00000000000000
     7E82D0000000000AAAA
 - expected_values:
-    K5_EOT: 93.00353
+    K5_EIT: 18.75
+    K5_EOT: 93
   response: |-
     7E8105F62E001FBBDFF
     7E821E1CECDAB661664
@@ -426,7 +451,8 @@ test_cases:
     7E82C00000000000000
     7E82D0000000000AAAA
 - expected_values:
-    K5_EOT: 36.75212
+    K5_EIT: 30
+    K5_EOT: 36.75
   response: |-
     7E8105F62E001FBBDFF
     7E821E1CECDAE301D4F
@@ -443,7 +469,8 @@ test_cases:
     7E82C00000000000000
     7E82D0000000000AAAA
 - expected_values:
-    K5_EOT: 94.50356
+    K5_EIT: 35.25
+    K5_EOT: 94.5
   response: |-
     7E8105F62E001FBBDFF
     7E821E1CECDB0460C4E
@@ -460,7 +487,8 @@ test_cases:
     7E82C00000000000000
     7E82D0000000000AAAA
 - expected_values:
-    K5_EOT: 91.50349
+    K5_EIT: 33.75
+    K5_EOT: 91.5
   response: |-
     7E8105F62E001FBBDFF
     7E821E1CECDC5881F64
@@ -477,7 +505,8 @@ test_cases:
     7E82C00000000000000
     7E82D0000000000AAAA
 - expected_values:
-    K5_EOT: 96.0036
+    K5_EIT: 32.25
+    K5_EOT: 96
   response: |-
     7E8105F62E001FBBDFF
     7E821E1CECDC7421C64
@@ -494,7 +523,8 @@ test_cases:
     7E82C00000000000000
     7E82D0000000000AAAA
 - expected_values:
-    K5_EOT: 92.25351
+    K5_EIT: 33
+    K5_EOT: 92.25
   response: |-
     7E8105F62E001FBBDFF
     7E821E1CECFC20E1964
@@ -511,7 +541,8 @@ test_cases:
     7E82C00000000000000
     7E82D0000000000AAAA
 - expected_values:
-    K5_EOT: 93.00353
+    K5_EIT: 50.25
+    K5_EOT: 93
   response: |-
     7E8105F62E001FBBDFF
     7E821E1CECFFF360B48
@@ -528,7 +559,8 @@ test_cases:
     7E82C00000000000000
     7E82D0000000000AAAA
 - expected_values:
-    K5_EOT: 71.25298
+    K5_EIT: 20.25
+    K5_EOT: 71.25
   response: |-
     7E8105F62E001FBBDFF
     7E821E1CFCFA8780C4E
@@ -545,7 +577,8 @@ test_cases:
     7E82C00000000000000
     7E82D0000000000AAAA
 - expected_values:
-    K5_EOT: 93.00353
+    K5_EIT: 22.5
+    K5_EOT: 93
   response: |-
     7E8105F62E001FBBDFF
     7E821E1CFCFAB360D55
@@ -562,7 +595,8 @@ test_cases:
     7E82C00000000000000
     7E82D0000000000AAAA
 - expected_values:
-    K5_EOT: 20.25171
+    K5_EIT: 16.5
+    K5_EOT: 20.25
   response: |-
     7E8105F62E001FBBDFF
     7E821E1CFCFAE0C1962
@@ -579,7 +613,8 @@ test_cases:
     7E82C00000000000000
     7E82D0000000000AAAA
 - expected_values:
-    K5_EOT: 86.25336
+    K5_EIT: 51.75
+    K5_EOT: 86.25
   response: |-
     7E8105F62E001FBBDFF
     7E821E1CFCFAE2A0C4E
@@ -596,7 +631,8 @@ test_cases:
     7E82C00000000000000
     7E82D0000000000AAAA
 - expected_values:
-    K5_EOT: 90.00345
+    K5_EIT: 12
+    K5_EOT: 90
   response: |-
     7E8105F62E001FBBDFF
     7E821E1CFCFB01C1C64
@@ -613,7 +649,8 @@ test_cases:
     7E82C00000000000000
     7E82D0000000000AAAA
 - expected_values:
-    K5_EOT: 63.00278
+    K5_EIT: 18
+    K5_EOT: 63
   response: |-
     7E8105F62E001FBBDFF
     7E821E1CFCFB0281664
@@ -630,7 +667,8 @@ test_cases:
     7E82C00000000000000
     7E82D0000000000AAAA
 - expected_values:
-    K5_EOT: 62.25276
+    K5_EIT: 9.75
+    K5_EOT: 62.25
   response: |-
     7E8105F62E001FBBDFF
     7E821E1CFCFB09A1C64
@@ -647,7 +685,8 @@ test_cases:
     7E82C00000000000000
     7E82D0000000000AAAA
 - expected_values:
-    K5_EOT: 78.00315
+    K5_EIT: 9
+    K5_EOT: 78
   response: |-
     7E8105F62E001FBBDFF
     7E821E1CFCFB5122064
@@ -664,7 +703,8 @@ test_cases:
     7E82C00000000000000
     7E82D0000000000AAAA
 - expected_values:
-    K5_EOT: 84.0033
+    K5_EIT: 19.5
+    K5_EOT: 84
   response: |-
     7E8105F62E001FBBDFF
     7E821E1CFCFB8161964
@@ -681,7 +721,8 @@ test_cases:
     7E82C00000000000000
     7E82D0000000000AAAA
 - expected_values:
-    K5_EOT: 98.25366
+    K5_EIT: 42
+    K5_EOT: 98.25
   response: |-
     7E8105F62E001FBBDFF
     7E821E1CFCFBD6E1550
@@ -698,7 +739,8 @@ test_cases:
     7E82C00000000000000
     7E82D0000000000AAAA
 - expected_values:
-    K5_EOT: 94.50356
+    K5_EIT: 35.25
+    K5_EOT: 94.5
   response: |-
     7E8105F62E001FBBDFF
     7E821E1CFCFC2B61E64
@@ -715,7 +757,8 @@ test_cases:
     7E82C00000000000000
     7E82D0000000000AAAA
 - expected_values:
-    K5_EOT: 99.00368
+    K5_EIT: 33.75
+    K5_EOT: 99
   response: |-
     7E8105F62E001FBBDFF
     7E821E1CFCFC7C61C64
@@ -732,7 +775,8 @@ test_cases:
     7E82C00000000000000
     7E82D0000000000AAAA
 - expected_values:
-    K5_EOT: 103.50379
+    K5_EIT: 28.5
+    K5_EOT: 103.5
   response: |-
     7E8105F62E001FBBDFF
     7E821E1CFCFCF202664
@@ -749,7 +793,8 @@ test_cases:
     7E82C00000000000000
     7E82D0000000000AAAA
 - expected_values:
-    K5_EOT: 102.75377
+    K5_EIT: 30
+    K5_EOT: 102.75
   response: |-
     7E8105F62E001FBBDFF
     7E821E1CFCFCFF21F64
@@ -766,7 +811,8 @@ test_cases:
     7E82C00000000000000
     7E82D0000000000AAAA
 - expected_values:
-    K5_EOT: 25.50184
+    K5_EIT: 10.5
+    K5_EOT: 25.5
   response: |-
     7E8105F62E001FBBDFF
     7E821E1CFD09C541864
@@ -783,7 +829,8 @@ test_cases:
     7E82C00000000000000
     7E82D0000000000AAAA
 - expected_values:
-    K5_EOT: 105.00383
+    K5_EIT: 28.5
+    K5_EOT: 105
   response: |-
     7E8105F62E001FBBDFF
     7E821E1CFD0CF742264
@@ -800,7 +847,8 @@ test_cases:
     7E82C00000000000000
     7E82D0000000000AAAA
 - expected_values:
-    K5_EOT: 90.75347
+    K5_EIT: 16.5
+    K5_EOT: 90.75
   response: |-
     7E8105F62E001FBBDFF
     7E821E1D0D0B5341364
@@ -817,7 +865,8 @@ test_cases:
     7E82C00000000000000
     7E82D0000000000AAAA
 - expected_values:
-    K5_EOT: 100.50371
+    K5_EIT: 45.75
+    K5_EOT: 100.5
   response: |-
     7E8105F62E001FBBDFF
     7E821E1D0D0B8FA1C64
@@ -834,7 +883,8 @@ test_cases:
     7E82C00000000000000
     7E82D0000000000AAAA
 - expected_values:
-    K5_EOT: 93.75354
+    K5_EIT: 39
+    K5_EOT: 93.75
   response: |-
     7E8105F62E001FBBDFF
     7E821E1D0D0C7DE3464
@@ -851,7 +901,8 @@ test_cases:
     7E82C00000000000000
     7E82D0000000000AAAA
 - expected_values:
-    K5_EOT: 102.00375
+    K5_EIT: 47.25
+    K5_EOT: 102
   response: |-
     7E8105F62E001FBBDFF
     7E821E1D0D0CA981B64
@@ -868,7 +919,8 @@ test_cases:
     7E82C00000000000000
     7E82D0000000000AAAA
 - expected_values:
-    K5_EOT: 82.50326
+    K5_EIT: 7.5
+    K5_EOT: 82.5
   response: |-
     7E8105F62E001FBBDFF
     7E821E1D2D18F081764
@@ -885,7 +937,8 @@ test_cases:
     7E82C00000000000000
     7E82D0000000000AAAA
 - expected_values:
-    K5_EOT: 99.00368
+    K5_EIT: 42.75
+    K5_EOT: 99
   response: |-
     7E8105F62E001FBBDFF
     7E821E1D2D1C0942F64
@@ -902,7 +955,8 @@ test_cases:
     7E82C00000000000000
     7E82D0000000000AAAA
 - expected_values:
-    K5_EOT: 11.25148
+    K5_EIT: 12
+    K5_EOT: 11.25
   response: |-
     7E8105F62E001FBBDFF
     7E821E1D9D9ABA01171
@@ -919,7 +973,8 @@ test_cases:
     7E82C00000000000000
     7E82D0000000000AAAA
 - expected_values:
-    K5_EOT: 74.25306
+    K5_EIT: 17.25
+    K5_EOT: 74.25
   response: |-
     7E8105F62E001FBBDFF
     7E821E1D9D9AE963564
@@ -936,7 +991,8 @@ test_cases:
     7E82C00000000000000
     7E82D0000000000AAAA
 - expected_values:
-    K5_EOT: 11.25148
+    K5_EIT: 12.75
+    K5_EOT: 11.25
   response: |-
     7E8105F62E001FBBDFF
     7E821E1DADAAEA81796
@@ -953,7 +1009,8 @@ test_cases:
     7E82C00000000000000
     7E82D0000000000AAAA
 - expected_values:
-    K5_EOT: 90.75347
+    K5_EIT: 34.5
+    K5_EOT: 90.75
   response: |-
     7E8105F62E001FBBDFF
     7E821E1E1E0B0660C4E
