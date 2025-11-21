@@ -1,9 +1,9 @@
 command_id: 7B3.7BB.220100|fc=1
 test_cases:
 - expected_values:
-    KIA_TEMP_EXT: 2.5
-    KIA_TEMP_INT: 8
-    KIA_VSS: 0
+    K5_TEMP_EXT: 2.5
+    K5_TEMP_INT: 8
+    K5_VSS: 0
   response: |-
     7BB10256201007F9000
     7BB2168FF60555700EE
@@ -12,9 +12,9 @@ test_cases:
     7BB24FFFFFFFFFF007E
     7BB25FF01FFAAAAAAAA
 - expected_values:
-    KIA_TEMP_EXT: 8.5
-    KIA_TEMP_INT: 8
-    KIA_VSS: 0
+    K5_TEMP_EXT: 8.5
+    K5_TEMP_INT: 8
+    K5_VSS: 0
   response: |-
     7BB10256201007F9000
     7BB2168FF60615D00EE
@@ -23,9 +23,9 @@ test_cases:
     7BB24FFFFFFFFFF0065
     7BB25FF01FFAAAAAAAA
 - expected_values:
-    KIA_TEMP_EXT: 6.5
-    KIA_TEMP_INT: 8.5
-    KIA_VSS: 0
+    K5_TEMP_EXT: 6.5
+    K5_TEMP_INT: 8.5
+    K5_VSS: 0
   response: |-
     7BB10256201007F9000
     7BB2168FF615D5A00EE
@@ -34,9 +34,9 @@ test_cases:
     7BB24FFFFFFFFFF006B
     7BB25FF01FFAAAAAAAA
 - expected_values:
-    KIA_TEMP_EXT: 8
-    KIA_TEMP_INT: 9
-    KIA_VSS: 0
+    K5_TEMP_EXT: 8
+    K5_TEMP_INT: 9
+    K5_VSS: 0
   response: |-
     7BB10256201007F9000
     7BB2168FF62605900EE
@@ -45,9 +45,9 @@ test_cases:
     7BB24FFFFFFFFFF0080
     7BB25FF01FFAAAAAAAA
 - expected_values:
-    KIA_TEMP_EXT: 12
-    KIA_TEMP_INT: 12.5
-    KIA_VSS: 0
+    K5_TEMP_EXT: 12
+    K5_TEMP_INT: 12.5
+    K5_VSS: 0
   response: |-
     7BB10256201007F9000
     7BB2168FF69686E00EE
@@ -56,9 +56,9 @@ test_cases:
     7BB24FFFFFFFFFF0071
     7BB25FF00FFAAAAAAAA
 - expected_values:
-    KIA_TEMP_EXT: 11.5
-    KIA_TEMP_INT: 14
-    KIA_VSS: 0
+    K5_TEMP_EXT: 11.5
+    K5_TEMP_INT: 14
+    K5_VSS: 0
   response: |-
     7BB10256201007F9000
     7BB2168FF6C675D00EE
@@ -67,9 +67,9 @@ test_cases:
     7BB24FFFFFFFFFF0082
     7BB25FF01FFAAAAAAAA
 - expected_values:
-    KIA_TEMP_EXT: 7
-    KIA_TEMP_INT: 14.5
-    KIA_VSS: 98
+    K5_TEMP_EXT: 7
+    K5_TEMP_INT: 14.5
+    K5_VSS: 98
   response: |-
     7BB10256201007F9000
     7BB2168FF6D5E5500CF
@@ -78,9 +78,9 @@ test_cases:
     7BB24FFFFFFFFFF62B9
     7BB25FF01FFAAAAAAAA
 - expected_values:
-    KIA_TEMP_EXT: 9.5
-    KIA_TEMP_INT: 14.5
-    KIA_VSS: 53
+    K5_TEMP_EXT: 9.5
+    K5_TEMP_INT: 14.5
+    K5_VSS: 53
   response: |-
     7BB10256201007F9000
     7BB2168FF6D635900D0
@@ -89,9 +89,9 @@ test_cases:
     7BB24FFFFFFFFFF35AA
     7BB25FF01FFAAAAAAAA
 - expected_values:
-    KIA_TEMP_EXT: 12.5
-    KIA_TEMP_INT: 17
-    KIA_VSS: 0
+    K5_TEMP_EXT: 12.5
+    K5_TEMP_INT: 17
+    K5_VSS: 0
   response: |-
     7BB10256201007F9000
     7BB2168FF72695E06EE
@@ -100,9 +100,9 @@ test_cases:
     7BB24FFFFFFFFFF0057
     7BB25FF01FFAAAAAAAA
 - expected_values:
-    KIA_TEMP_EXT: 14
-    KIA_TEMP_INT: 18.5
-    KIA_VSS: 0
+    K5_TEMP_EXT: 14
+    K5_TEMP_INT: 18.5
+    K5_VSS: 0
   response: |-
     7BB10256201007F9000
     7BB2168FF756C6000D7
@@ -111,9 +111,9 @@ test_cases:
     7BB24FFFFFFFFFF0081
     7BB25FF01FFAAAAAAAA
 - expected_values:
-    KIA_TEMP_EXT: 13
-    KIA_TEMP_INT: 22.5
-    KIA_VSS: 0
+    K5_TEMP_EXT: 13
+    K5_TEMP_INT: 22.5
+    K5_VSS: 0
   response: |-
     7BB10256201007F9000
     7BB2168FF7D6A5D1FEE
@@ -122,9 +122,9 @@ test_cases:
     7BB24FFFFFFFFFF0064
     7BB25FF01FFAAAAAAAA
 - expected_values:
-    KIA_TEMP_EXT: 15.5
-    KIA_TEMP_INT: 22.5
-    KIA_VSS: 105
+    K5_TEMP_EXT: 15.5
+    K5_TEMP_INT: 22.5
+    K5_VSS: 105
   response: |-
     7BB10256201007F9000
     7BB2168FF7D6F7703EE
@@ -133,9 +133,9 @@ test_cases:
     7BB24FFFFFFFFFF69B5
     7BB25FF00FFAAAAAAAA
 - expected_values:
-    KIA_TEMP_EXT: 22
-    KIA_TEMP_INT: 23.5
-    KIA_VSS: 43
+    K5_TEMP_EXT: 22
+    K5_TEMP_INT: 23.5
+    K5_VSS: 43
   response: |-
     7BB10256201007F9000
     7BB2168FF7F7C5D003E
@@ -144,9 +144,9 @@ test_cases:
     7BB24FFFFFFFFFF2BC3
     7BB25FF01FFAAAAAAAA
 - expected_values:
-    KIA_TEMP_EXT: 24
-    KIA_TEMP_INT: 23.5
-    KIA_VSS: 144
+    K5_TEMP_EXT: 24
+    K5_TEMP_INT: 23.5
+    K5_VSS: 144
   response: |-
     7BB10256201007F9000
     7BB2168FF7F805C003E
@@ -155,9 +155,9 @@ test_cases:
     7BB24FFFFFFFFFF90C3
     7BB25FF01FFAAAAAAAA
 - expected_values:
-    KIA_TEMP_EXT: 19
-    KIA_TEMP_INT: 26
-    KIA_VSS: 0
+    K5_TEMP_EXT: 19
+    K5_TEMP_INT: 26
+    K5_VSS: 0
   response: |-
     7BB10256201007F9000
     7BB2168FF84767E0211
@@ -166,9 +166,9 @@ test_cases:
     7BB24FFFFFFFFFF00B9
     7BB25FF00FFAAAAAAAA
 - expected_values:
-    KIA_TEMP_EXT: 27.5
-    KIA_TEMP_INT: 26
-    KIA_VSS: 0
+    K5_TEMP_EXT: 27.5
+    K5_TEMP_INT: 26
+    K5_VSS: 0
   response: |-
     7BB10256201007F9000
     7BB2168FF848758201C
@@ -177,9 +177,9 @@ test_cases:
     7BB24FFFFFFFFFF00C6
     7BB25FF01FFAAAAAAAA
 - expected_values:
-    KIA_TEMP_EXT: 28
-    KIA_TEMP_INT: 28.5
-    KIA_VSS: 70
+    K5_TEMP_EXT: 28
+    K5_TEMP_INT: 28.5
+    K5_VSS: 70
   response: |-
     7BB10256201007F9000
     7BB2168FF89885A4548
@@ -188,9 +188,9 @@ test_cases:
     7BB24FFFFFFFFFF46B8
     7BB25FF01FFAAAAAAAA
 - expected_values:
-    KIA_TEMP_EXT: 31
-    KIA_TEMP_INT: 30
-    KIA_VSS: 0
+    K5_TEMP_EXT: 31
+    K5_TEMP_INT: 30
+    K5_VSS: 0
   response: |-
     7BB10256201007F9000
     7BB2168FF8C8E5F4C11
@@ -199,9 +199,9 @@ test_cases:
     7BB24FFFFFFFFFF00C6
     7BB25FF01FFAAAAAAAA
 - expected_values:
-    KIA_TEMP_EXT: 27.5
-    KIA_TEMP_INT: 30.5
-    KIA_VSS: 0
+    K5_TEMP_EXT: 27.5
+    K5_TEMP_INT: 30.5
+    K5_VSS: 0
   response: |-
     7BB10256201007F9000
     7BB2168FF8D876D05C2
@@ -210,9 +210,9 @@ test_cases:
     7BB24FFFFFFFFFF00C9
     7BB25FF00FFAAAAAAAA
 - expected_values:
-    KIA_TEMP_EXT: 32
-    KIA_TEMP_INT: 31.5
-    KIA_VSS: 0
+    K5_TEMP_EXT: 32
+    K5_TEMP_INT: 31.5
+    K5_VSS: 0
   response: |-
     7BB10256201007F9000
     7BB2168FF8F90580025
@@ -221,9 +221,9 @@ test_cases:
     7BB24FFFFFFFFFF0087
     7BB25FF01FFAAAAAAAA
 - expected_values:
-    KIA_TEMP_EXT: 30.5
-    KIA_TEMP_INT: 48
-    KIA_VSS: 7
+    K5_TEMP_EXT: 30.5
+    K5_TEMP_INT: 48
+    K5_VSS: 7
   response: |-
     7BB10256201007F9000
     7BB2168FFB08D582711
