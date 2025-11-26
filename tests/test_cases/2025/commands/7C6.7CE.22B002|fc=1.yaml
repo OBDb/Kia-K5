@@ -1,6 +1,15 @@
 command_id: 7C6.7CE.22B002|fc=1
 test_cases:
 - expected_values:
+    K5_FLI_VOL: 15
+    K5_ODO_KM: 0
+    K5_ODO_MI: 7332
+    K5_VPWR: 12.8125
+  response: |-
+    7CE100F62B002D00000
+    7CE21000FA400000000
+    7CE221CA40000000000
+- expected_values:
     K5_FLI_VOL: 16
     K5_ODO_KM: 0
     K5_ODO_MI: 7330
@@ -10,14 +19,14 @@ test_cases:
     7CE210010A500000000
     7CE221CA20000000000
 - expected_values:
-    K5_FLI_VOL: 26
+    K5_FLI_VOL: 29
     K5_ODO_KM: 0
-    K5_ODO_MI: 7331
-    K5_VPWR: 12.65625
+    K5_ODO_MI: 7332
+    K5_VPWR: 12.57812
   response: |-
     7CE100F62B002D00000
-    7CE21001AA200000000
-    7CE221CA30000000000
+    7CE21001DA100000000
+    7CE221CA40000000000
 - expected_values:
     K5_FLI_VOL: 255
     K5_ODO_KM: 0
@@ -30,12 +39,12 @@ test_cases:
 - expected_values:
     K5_FLI_VOL: 255
     K5_ODO_KM: 0
-    K5_ODO_MI: 7331
-    K5_VPWR: 12.03125
+    K5_ODO_MI: 7332
+    K5_VPWR: 12.10938
   response: |-
     7CE100F62B002D00000
-    7CE2100FF9A00000000
-    7CE221CA30000000000
+    7CE2100FF9B00000000
+    7CE221CA40000000000
 - expected_values:
     K5_FLI_VOL: 0
     K5_ODO_KM: 0
