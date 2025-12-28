@@ -3,12 +3,12 @@ test_cases:
 - expected_values:
     K5_FLI_VOL: 5
     K5_ODO_KM: 0
-    K5_ODO_MI: 8513
+    K5_ODO_MI: 8514
     K5_VPWR: 11.71875
   response: |-
     7CE100F62B002D00000
     7CE2100059600000000
-    7CE2221410000000000
+    7CE2221420000000000
 - expected_values:
     K5_FLI_VOL: 14
     K5_ODO_KM: 0
