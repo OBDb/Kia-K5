@@ -1,0 +1,26 @@
+command_id: 7A0.7A8.22C00B|fc=1
+test_cases:
+- expected_values:
+    K5_FL_INVALID: 0
+    K5_FR_INVALID: 0
+    K5_RL_INVALID: 0
+    K5_RR_INVALID: 0
+    K5_TB_FL: 27_3V
+    K5_TB_FR: 27_3V
+    K5_TB_RL: 27_3V
+    K5_TB_RR: 27_3V
+    K5_TP_FL: 33
+    K5_TP_FR: 32.2
+    K5_TP_RL: 34.2
+    K5_TP_RR: 32.4
+    K5_TT_FL: 3
+    K5_TT_FR: 3
+    K5_TT_RL: 0
+    K5_TT_RR: 1
+  response: |-
+    7A8102462C00BFFFFFF
+    7A82180A535010000A1
+    7A82235010000AB3201
+    7A8230000A233010000
+    7A824FF88A988A988A9
+    7A82588A9AAAAAAAAAA
