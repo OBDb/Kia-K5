@@ -11,4 +11,16 @@ test_cases:
     K5_TURN_R: 0
   response: |-
     778100B62BC08A05090
+    77821B80000011CAAAA
+- expected_values:
+    K5_TURN_L: 0
+    K5_TURN_R: 0
+  response: |-
+    778100B62BC08A05090
     77821B80002001CAAAA
+- expected_values:
+    K5_TURN_L: 1
+    K5_TURN_R: 0
+  response: |-
+    778100B62BC08A05090
+    77821B80200011CAAAA

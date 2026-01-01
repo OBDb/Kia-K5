@@ -5,3 +5,8 @@ test_cases:
   response: |-
     778100B62BC050F1320
     778210000000000AAAA
+- expected_values:
+    K5_HAZARD_SW: 0
+  response: |-
+    778100B62BC050F1320
+    778210000400000AAAA
