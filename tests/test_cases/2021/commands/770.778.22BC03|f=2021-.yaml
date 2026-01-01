@@ -14,3 +14,59 @@ test_cases:
   response: |-
     778100B62BC03FDFE20
     778216200060000AAAA
+- expected_values:
+    K5_BELT_DRIV: 1
+    K5_BELT_PASS: 1
+    K5_DEFOG_SW: 1
+    K5_DOOR_FL: 0
+    K5_DOOR_FR: 0
+    K5_DOOR_RL: 0
+    K5_DOOR_RR: 0
+    K5_HANDBRAKE: 0
+    K5_HOOD: 0
+    K5_TRUNK: 0
+  response: |-
+    778100B62BC03FDFE20
+    778216200660002AAAA
+- expected_values:
+    K5_BELT_DRIV: 1
+    K5_BELT_PASS: 1
+    K5_DEFOG_SW: 1
+    K5_DOOR_FL: 0
+    K5_DOOR_FR: 0
+    K5_DOOR_RL: 0
+    K5_DOOR_RR: 0
+    K5_HANDBRAKE: 0
+    K5_HOOD: 0
+    K5_TRUNK: 0
+  response: |-
+    778100B62BC03FDFE20
+    778216200660402AAAA
+- expected_values:
+    K5_BELT_DRIV: 1
+    K5_BELT_PASS: 1
+    K5_DEFOG_SW: 0
+    K5_DOOR_FL: 0
+    K5_DOOR_FR: 0
+    K5_DOOR_RL: 0
+    K5_DOOR_RR: 0
+    K5_HANDBRAKE: 1
+    K5_HOOD: 0
+    K5_TRUNK: 0
+  response: |-
+    778100B62BC03FDFE20
+    77821620A660400AAAA
+- expected_values:
+    K5_BELT_DRIV: 1
+    K5_BELT_PASS: 1
+    K5_DEFOG_SW: 1
+    K5_DOOR_FL: 0
+    K5_DOOR_FR: 0
+    K5_DOOR_RL: 0
+    K5_DOOR_RR: 0
+    K5_HANDBRAKE: 1
+    K5_HOOD: 0
+    K5_TRUNK: 0
+  response: |-
+    778100B62BC03FDFE20
+    77821620A660402AAAA
