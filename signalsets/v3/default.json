@@ -83,7 +83,7 @@
         }}
     }
   ]},
-{ "hdr": "7B3", "rax": "7BB", "fcm1": true, "cmd": {"22": "0100"}, "freq": 0.25, "dbgfilter": { "to": 2021, "years": [2024], "from": 2027 },
+{ "hdr": "7B3", "rax": "7BB", "fcm1": true, "cmd": {"22": "0100"}, "freq": 0.25, "dbgfilter": { "to": 2020, "years": [2024], "from": 2027 },
   "signals": [
     {"id": "K5_TEMP_INT", "path": "Climate",  "fmt": {"bix": 40,  "len": 8, "max": 80,  "min": -40, "div": 2, "add": -40, "unit": "celsius"           }, "name": "Interior temperature"},
     {"id": "K5_TEMP_EXT", "path": "Climate",  "fmt": {"bix": 48,  "len": 8, "max": 80,  "min": -40, "div": 2, "add": -40, "unit": "celsius"           }, "name": "Exterior temperature"},
@@ -107,7 +107,7 @@
     {"id": "K5_STEER_ANGLE", "path": "Control",  "fmt": {"bix": 200, "len": 16, "max": 3276.7, "min": -3276.8, "div": 10,   "sign": true, "unit": "degrees"           }, "name": "Steering wheel angle"},
     {"id": "K5_BRAKE_P",     "path": "Control",  "fmt": {"bix": 256, "len": 16, "max": 100,                    "div": 86.7, "sign": true, "unit": "percent"           }, "name": "Brake pressure"}
   ]},
-{ "hdr": "7D4", "rax": "7DC", "cmd": {"22": "0101"}, "freq": 5, "dbgfilter": { "to": 2021, "years": [2024], "from": 2027 },
+{ "hdr": "7D4", "rax": "7DC", "cmd": {"22": "0101"}, "freq": 5, "dbgfilter": { "to": 2020, "years": [2024], "from": 2027 },
   "signals": [
     {"id": "K5_BMS_SOC",        "path": "Battery", "fmt": {"bix": 32,  "len": 8,  "max": 100,                "div": 2,                 "unit": "percent"   }, "name": "BMS state of charge",           "suggestedMetric": "stateOfCharge"},
     {"id": "K5_BMS_CHG_PWR",    "path": "Battery", "fmt": {"bix": 40,  "len": 16, "max": 655.35,             "div": 100,               "unit": "kilowatts" }, "name": "BMS available charge power"},
@@ -223,14 +223,14 @@
     {"id": "K5_EIT", "path": "Engine", "fmt": {"bix": 264, "len": 8, "max": 143, "min": -48, "mul": 3, "div": 4, "add": -48, "unit": "celsius" }, "name": "Intake air temperature"},
     {"id": "K5_EOT", "path": "Engine", "fmt": {"bix": 272, "len": 8, "max": 143, "min": -48, "mul": 3, "div": 4, "add": -48, "unit": "celsius" }, "name": "Engine oil temperature", "suggestedMetric": "engineOilTemperature"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "E002"}, "freq": 5, "dbgfilter": { "to": 2021, "years": [2024], "from": 2027 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "E002"}, "freq": 5, "dbgfilter": { "to": 2020, "years": [2024], "from": 2027 },
   "signals": [
     {"id": "K5_INJ_DUR_1", "path": "Engine", "fmt": {"bix": 176, "len": 16, "blsb": true, "max": 53.686409, "div": 1220.7, "unit": "seconds" }, "name": "Injection duration cylinder 1"},
     {"id": "K5_INJ_DUR_2", "path": "Engine", "fmt": {"bix": 192, "len": 16, "blsb": true, "max": 53.686409, "div": 1220.7, "unit": "seconds" }, "name": "Injection duration cylinder 2"},
     {"id": "K5_INJ_DUR_3", "path": "Engine", "fmt": {"bix": 208, "len": 16, "blsb": true, "max": 53.686409, "div": 1220.7, "unit": "seconds" }, "name": "Injection duration cylinder 3"},
     {"id": "K5_INJ_DUR_4", "path": "Engine", "fmt": {"bix": 224, "len": 16, "blsb": true, "max": 53.686409, "div": 1220.7, "unit": "seconds" }, "name": "Injection duration cylinder 4"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "E00A"}, "freq": 1, "dbgfilter": { "to": 2021, "years": [2024], "from": 2027 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "E00A"}, "freq": 1, "dbgfilter": { "to": 2020, "years": [2024], "from": 2027 },
   "signals": [
     {"id": "K5_KNOCK_RETARD_1_E00A", "path": "Engine", "fmt": {"bix": 96,  "len": 8, "max": 25.4, "min": -25.6, "div": 5, "sign": true, "unit": "degrees" }, "name": "Knock retard cylinder 1"},
     {"id": "K5_KNOCK_RETARD_2_E00A", "path": "Engine", "fmt": {"bix": 104, "len": 8, "max": 25.4, "min": -25.6, "div": 5, "sign": true, "unit": "degrees" }, "name": "Knock retard cylinder 2"},
@@ -249,7 +249,7 @@
     {"id": "K5_WG_POSITION", "path": "Engine", "fmt": {"bix": 424, "len": 16, "max": 400,               "mul": 400, "div": 65535,                    "unit": "percent" }, "name": "Waste gate position"},
     {"id": "K5_WG_SETPOINT", "path": "Engine", "fmt": {"bix": 440, "len": 16, "max": 100,               "mul": 400, "div": 65535,                    "unit": "percent" }, "name": "Waste gate setpoint"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "01A0"}, "freq": 1, "dbgfilter": { "to": 2022, "years": [2024], "from": 2027 },
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "01A0"}, "freq": 1, "dbgfilter": { "to": 2020, "years": [2022, 2024], "from": 2027 },
   "signals": [
     {"id": "K5_RPM",                   "path": "Movement",     "fmt": {"bix": 32,  "len": 16, "max": 16383.75,              "mul": 0.25,                          "unit": "rpm"               }, "name": "[TCM] engine RPM"},
     {"id": "K5_VSS_7E1",               "path": "Movement",     "fmt": {"bix": 48,  "len": 8,  "max": 255,                                                         "unit": "kilometersPerHour" }, "name": "[TCM] vehicle speed",                       "suggestedMetric": "speed"},
