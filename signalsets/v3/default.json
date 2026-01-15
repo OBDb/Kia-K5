@@ -1,5 +1,5 @@
 { "commands": [
-{ "hdr": "770", "rax": "778", "cmd": {"22": "BC03"}, "freq": 1, "filter": { "from": 2021 }, "dbgfilter": { "years": [2024], "from": 2027 },
+{ "hdr": "770", "rax": "778", "cmd": {"22": "BC03"}, "freq": 1, "dbgfilter": { "to": 2020, "years": [2024], "from": 2027 },
   "signals": [
     {"id": "K5_TRUNK",     "path": "Doors",     "fmt": {"bix": 32, "len": 1, "max": 1, "unit": "noyes" }, "name": "Trunk open?"},
     {"id": "K5_DOOR_FL",   "path": "Doors",     "fmt": {"bix": 34, "len": 1, "max": 1, "unit": "noyes" }, "name": "Front left door open?"},
@@ -12,7 +12,7 @@
     {"id": "K5_HOOD",      "path": "Doors",     "fmt": {"bix": 47, "len": 1, "max": 1, "unit": "noyes" }, "name": "Hood latched?"},
     {"id": "K5_DEFOG_SW",  "path": "Climate",   "fmt": {"bix": 62, "len": 1, "max": 1, "unit": "noyes" }, "name": "Defogging?"}
   ]},
-{ "hdr": "770", "rax": "778", "cmd": {"22": "BC04"}, "freq": 1, "filter": { "from": 2021 }, "dbgfilter": { "years": [2024], "from": 2027 },
+{ "hdr": "770", "rax": "778", "cmd": {"22": "BC04"}, "freq": 1, "dbgfilter": { "to": 2020, "years": [2024], "from": 2027 },
   "signals": [
     {"id": "K5_GEAR_R",  "path": "Transmission", "fmt": {"bix": 35, "len": 1, "max": 1, "unit": "noyes"  }, "name": "Reverse gear selected"},
     {"id": "K5_LOCK_FL", "path": "Doors",        "fmt": {"bix": 36, "len": 1, "max": 1, "unit": "scalar" }, "name": "Front left door locked?"},
@@ -21,21 +21,21 @@
     {"id": "K5_BELT_RL", "path": "Seatbelts",    "fmt": {"bix": 53, "len": 1, "max": 1, "unit": "noyes"  }, "name": "Rear left seatbelt latched?"},
     {"id": "K5_BELT_RR", "path": "Seatbelts",    "fmt": {"bix": 54, "len": 1, "max": 1, "unit": "noyes"  }, "name": "Rear right seatbelt latched?"}
   ]},
-{ "hdr": "770", "rax": "778", "cmd": {"22": "BC05"}, "freq": 1, "filter": { "from": 2021 }, "dbgfilter": { "years": [2024], "from": 2027 },
+{ "hdr": "770", "rax": "778", "cmd": {"22": "BC05"}, "freq": 1, "dbgfilter": { "to": 2020, "years": [2024], "from": 2027 },
   "signals": [
     {"id": "K5_HAZARD_SW", "path": "Lights", "fmt": {"bix": 32, "len": 8, "max": 255,                             "unit": "scalar" }, "name": "Hazard switch"},
-    {"id": "K5_HL_SW",     "path": "Lights", "fmt": {"bix": 48, "len": 8, "max": 1,   "nullmin": 0, "nullmax": 2, "unit": "noyes"  }, "name": "Headlight switch (raw >2)"}
+    {"id": "K5_HL_SW",     "path": "Lights", "fmt": {"bix": 48, "len": 8, "max": 1,   "nullmin": 0, "nullmax": 2, "unit": "noyes"  }, "name": "Headlight switch"}
   ]},
-{ "hdr": "770", "rax": "778", "cmd": {"22": "BC07"}, "freq": 1, "filter": { "from": 2021 }, "dbgfilter": { "from": 2024 },
+{ "hdr": "770", "rax": "778", "cmd": {"22": "BC07"}, "freq": 1, "dbgfilter": { "to": 2020, "from": 2024 },
   "signals": [
-    {"id": "K5_DEFOG_LIGHT", "path": "Climate", "fmt": {"bix": 47, "len": 1, "max": 1, "unit": "offon" }, "name": "Defog light"}
+    {"id": "K5_DEFOG_LIGHT", "path": "Lights", "fmt": {"bix": 47, "len": 1, "max": 1, "unit": "offon" }, "name": "Defog light"}
   ]},
-{ "hdr": "770", "rax": "778", "cmd": {"22": "BC08"}, "freq": 2, "filter": { "from": 2021 }, "dbgfilter": { "years": [2024], "from": 2027 },
+{ "hdr": "770", "rax": "778", "cmd": {"22": "BC08"}, "freq": 2, "dbgfilter": { "to": 2020, "years": [2024], "from": 2027 },
   "signals": [
-    {"id": "K5_TURN_R", "path": "Lights", "fmt": {"bix": 37, "len": 1, "max": 1, "unit": "offon" }, "name": "Right turn signal on? (raw >3)"},
-    {"id": "K5_TURN_L", "path": "Lights", "fmt": {"bix": 38, "len": 1, "max": 1, "unit": "offon" }, "name": "Left turn signal on? (raw >1)"}
+    {"id": "K5_TURN_R", "path": "Lights", "fmt": {"bix": 37, "len": 1, "max": 1, "unit": "offon" }, "name": "Right turn signal on?"},
+    {"id": "K5_TURN_L", "path": "Lights", "fmt": {"bix": 38, "len": 1, "max": 1, "unit": "offon" }, "name": "Left turn signal on?"}
   ]},
-{ "hdr": "770", "rax": "778", "cmd": {"22": "BC09"}, "freq": 1, "filter": { "from": 2021 }, "dbgfilter": { "years": [2024], "from": 2027 },
+{ "hdr": "770", "rax": "778", "cmd": {"22": "BC09"}, "freq": 1, "dbgfilter": { "to": 2020, "years": [2024], "from": 2027 },
   "signals": [
     {"id": "K5_HL_HIGH", "path": "Lights", "fmt": {"bix": 55, "len": 1, "max": 1, "unit": "offon" }, "name": "Headlight high beam"},
     {"id": "K5_HL_LOW",  "path": "Lights", "fmt": {"bix": 63, "len": 1, "max": 1, "unit": "offon" }, "name": "Headlight low beam"}
@@ -91,7 +91,7 @@
   ]},
 { "hdr": "7C6", "rax": "7CE", "fcm1": true, "cmd": {"22": "B002"}, "freq": 5, "dbgfilter": { "to": 2020, "years": [2024], "from": 2027 },
   "signals": [
-    {"id": "K5_FLI_VOL", "path": "Fuel",    "fmt": {"bix": 32, "len": 8,  "max": 255,                   "unit": "liters"     }, "name": "Fuel level (volume)"},
+    {"id": "K5_FLI_VOL", "path": "Fuel",    "fmt": {"bix": 32, "len": 8,  "max": 255,                   "unit": "liters"     }, "name": "Fuel level, volume",  "suggestedMetric": "fuelTankLevel"},
     {"id": "K5_VPWR",    "path": "Battery", "fmt": {"bix": 40, "len": 8,  "max": 18,       "div": 12.8, "unit": "volts"      }, "name": "12v battery voltage", "suggestedMetric": "starterBatteryVoltage"},
     {"id": "K5_ODO_KM",  "path": "Trips",   "fmt": {"bix": 48, "len": 24, "max": 16777215,              "unit": "kilometers" }, "name": "Odometer",            "suggestedMetric": "odometer"},
     {"id": "K5_ODO_MI",  "path": "Trips",   "fmt": {"bix": 72, "len": 24, "max": 16777215,              "unit": "miles"      }, "name": "Odometer",            "suggestedMetric": "odometer"}
@@ -103,120 +103,20 @@
     {"id": "K5_TIRE_FR_VSS", "path": "Movement", "fmt": {"bix": 96,  "len": 8,  "max": 255,                                               "unit": "kilometersPerHour" }, "name": "Front right wheel speed"},
     {"id": "K5_TIRE_RR_VSS", "path": "Movement", "fmt": {"bix": 104, "len": 8,  "max": 255,                                               "unit": "kilometersPerHour" }, "name": "Rear right wheel speed"},
     {"id": "K5_TIRE_RL_VSS", "path": "Movement", "fmt": {"bix": 112, "len": 8,  "max": 255,                                               "unit": "kilometersPerHour" }, "name": "Rear left wheel speed"},
-    {"id": "K5_TC_SWITCH",   "path": "Movement", "fmt": {"bix": 150, "len": 1,  "max": 1,                                                 "unit": "noyes"             }, "name": "Vehicle traction control switch (raw)"},
+    {"id": "K5_TC_SWITCH",   "path": "Movement", "fmt": {"bix": 150, "len": 1,  "max": 1,                                                 "unit": "noyes"             }, "name": "Vehicle traction control"},
     {"id": "K5_STEER_ANGLE", "path": "Control",  "fmt": {"bix": 200, "len": 16, "max": 3276.7, "min": -3276.8, "div": 10,   "sign": true, "unit": "degrees"           }, "name": "Steering wheel angle"},
     {"id": "K5_BRAKE_P",     "path": "Control",  "fmt": {"bix": 256, "len": 16, "max": 100,                    "div": 86.7, "sign": true, "unit": "percent"           }, "name": "Brake pressure"}
   ]},
 { "hdr": "7D4", "rax": "7DC", "cmd": {"22": "0101"}, "freq": 5, "dbgfilter": { "to": 2020, "years": [2024], "from": 2027 },
   "signals": [
-    {"id": "K5_BMS_SOC",        "path": "Battery", "fmt": {"bix": 32,  "len": 8,  "max": 100,                "div": 2,                 "unit": "percent"   }, "name": "BMS state of charge",           "suggestedMetric": "stateOfCharge"},
-    {"id": "K5_BMS_CHG_PWR",    "path": "Battery", "fmt": {"bix": 40,  "len": 16, "max": 655.35,             "div": 100,               "unit": "kilowatts" }, "name": "BMS available charge power"},
-    {"id": "K5_BMS_DISCHG_PWR", "path": "Battery", "fmt": {"bix": 56,  "len": 16, "max": 655.35,             "div": 100,               "unit": "kilowatts" }, "name": "BMS available discharge power"},
-    {"id": "K5_BMS_MIN_TEMP",   "path": "Battery", "fmt": {"bix": 120, "len": 8,  "max": 80,     "min": -40,             "sign": true, "unit": "celsius"   }, "name": "BMS battery min temp"},
-    {"id": "K5_BMS_MOD1_TEMP",  "path": "Battery", "fmt": {"bix": 128, "len": 8,  "max": 80,     "min": -40,             "sign": true, "unit": "celsius"   }, "name": "BMS battery mod 1 temp"},
-    {"id": "K5_BMS_MOD2_TEMP",  "path": "Battery", "fmt": {"bix": 136, "len": 8,  "max": 80,     "min": -40,             "sign": true, "unit": "celsius"   }, "name": "BMS battery mod 2 temp"},
-    {"id": "K5_BMS_MOD3_TEMP",  "path": "Battery", "fmt": {"bix": 144, "len": 8,  "max": 80,     "min": -40,             "sign": true, "unit": "celsius"   }, "name": "BMS battery mod 3 temp"},
-    {"id": "K5_BMS_MOD4_TEMP",  "path": "Battery", "fmt": {"bix": 152, "len": 8,  "max": 80,     "min": -40,             "sign": true, "unit": "celsius"   }, "name": "BMS battery mod 4 temp"}
-  ]},
-{ "hdr": "7E0", "dbg": true, "cmd": {"21": "1D"}, "freq": 1,
-  "signals": [
-    {"id": "K5_MIS_1",     "path": "Engine.Misfires", "fmt": {"bix": 32,  "len": 16, "blsb": true, "max": 65535, "unit": "scalar" }, "name": "Misfires, cylinder 1"},
-    {"id": "K5_MIS_2",     "path": "Engine.Misfires", "fmt": {"bix": 48,  "len": 16, "blsb": true, "max": 65535, "unit": "scalar" }, "name": "Misfires, cylinder 2"},
-    {"id": "K5_MIS_3",     "path": "Engine.Misfires", "fmt": {"bix": 64,  "len": 16, "blsb": true, "max": 65535, "unit": "scalar" }, "name": "Misfires, cylinder 3"},
-    {"id": "K5_MIS_4",     "path": "Engine.Misfires", "fmt": {"bix": 80,  "len": 16, "blsb": true, "max": 65535, "unit": "scalar" }, "name": "Misfires, cylinder 4"},
-    {"id": "K5_MIS_CAT_1", "path": "Engine.Misfires", "fmt": {"bix": 160, "len": 16, "blsb": true, "max": 65535, "unit": "scalar" }, "name": "Misfires harmful for catalyst cylinder 1"},
-    {"id": "K5_MIS_CAT_2", "path": "Engine.Misfires", "fmt": {"bix": 176, "len": 16, "blsb": true, "max": 65535, "unit": "scalar" }, "name": "Misfires harmful for catalyst cylinder 2"},
-    {"id": "K5_MIS_CAT_3", "path": "Engine.Misfires", "fmt": {"bix": 192, "len": 16, "blsb": true, "max": 65535, "unit": "scalar" }, "name": "Misfires harmful for catalyst cylinder 3"},
-    {"id": "K5_MIS_CAT_4", "path": "Engine.Misfires", "fmt": {"bix": 208, "len": 16, "blsb": true, "max": 65535, "unit": "scalar" }, "name": "Misfires harmful for catalyst cylinder 4"}
-  ]},
-{ "hdr": "7E0", "dbg": true, "cmd": {"21": "22"}, "freq": 1,
-  "signals": [
-    {"id": "K5_LPG_LOW_SIDE_T",                      "path": "Engine", "fmt": {"bix": 32,  "len": 8,  "max": 143.25, "min": -48,     "mul": 0.75,             "add": -48, "unit": "celsius" },                "name": "LPG low side temperature"},
-    {"id": "K5_LPG_PRESSURE_IN_FUEL_RAIL__AVERAGE_", "path": "Fuel",   "fmt": {"bix": 48,  "len": 16, "blsb": true,  "max": 32767.5,              "mul": 0.5,                               "unit": "unknown" },                                      "name": "LPG pressure in fuel rail (average)"},
-    {"id": "K5_LPG_ELECTRICAL_FUEL_PUMP_PWM",        "path": "Fuel",   "fmt": {"bix": 88,  "len": 8,  "max": 100,                    "mul": 100,  "div": 255,             "unit": "percent" },                "name": "LPG electrical fuel pump PWM"},
-    {"id": "K5_BUTANE_IN_LPG",                       "path": "ECU",    "fmt": {"bix": 104, "len": 8,  "max": 100,                    "mul": 100,  "div": 255,             "unit": "percent" },                "name": "butane in LPG"}
-  ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"21": "01"}, "freq": 1,
-  "signals": [
-    {"id": "K5_CONTROL_MODULE_VOLTAGE",                "path": "Battery", "fmt": {"bix": 40,  "len": 8,  "max": 255,                                                                         "unit": "volts"   },                   "name": "Control module voltage"},
-    {"id": "K5_CONTROL_MODULE_VOLTAGE_AFTER_IGNITION", "path": "Battery", "fmt": {"bix": 48,  "len": 8,  "max": 255,                                                                         "unit": "volts"   },                   "name": "Control module voltage after ignition"},
-    {"id": "K5_ENGINE_RPM",                            "path": "Engine",  "fmt": {"bix": 56,  "len": 16, "blsb": true,  "max": 16383.75,                    "mul": 0.25,                                       "unit": "rpm"        },                                               "name": "Engine RPM"},
-    {"id": "K5_COMMANDED_ENGINE_IDLE_RPM",             "path": "Engine",  "fmt": {"bix": 72,  "len": 8,  "max": 2550,                          "mul": 10,                                    "unit": "rpm"     },                   "name": "Commanded engine idle RPM"},
-    {"id": "K5_MAP_SENSOR_VOLTAGE",                    "path": "Engine",  "fmt": {"bix": 112, "len": 16, "blsb": true,  "max": 319.9951171875,              "mul": 0.0048828125,                               "unit": "volts"      },                                               "name": "MAP sensor voltage"},
-    {"id": "K5_INTAKE_MANIFOLD_ABSOLUTE_PRESSURE",     "path": "Engine",  "fmt": {"bix": 128, "len": 16, "blsb": true,  "max": 255.99609375,                "mul": 0.00390625,                                 "unit": "kilopascal" },                                               "name": "Intake manifold absolute pressure"},
-    {"id": "K5_COOLANT_T_SENSOR_VOLTAGE",              "path": "Engine",  "fmt": {"bix": 184, "len": 16, "blsb": true,  "max": 319.9951171875,              "mul": 0.0048828125,                               "unit": "volts"      },                                               "name": "Coolant temperature sensor voltage"},
-    {"id": "K5_ENGINE_COOLANT_T",                      "path": "Engine",  "fmt": {"bix": 200, "len": 8,  "max": 143.25, "min": -48,            "mul": 0.75,                      "add": -48, "unit": "celsius" },                   "name": "Engine coolant temperature"},
-    {"id": "K5_IAT_SENSOR_VOLTAGE",                    "path": "Engine",  "fmt": {"bix": 248, "len": 16, "blsb": true,  "max": 319.9951171875,              "mul": 0.0048828125,                               "unit": "volts"      },                                               "name": "IAT sensor voltage"},
-    {"id": "K5_INTAKE_AIR_T",                          "path": "Engine",  "fmt": {"bix": 264, "len": 8,  "max": 143.25, "min": -48,            "mul": 0.75,                      "add": -48, "unit": "celsius" },                   "name": "Intake air temperature"},
-    {"id": "K5_ENGINE_OIL_T",                          "path": "Engine",  "fmt": {"bix": 272, "len": 8,  "max": 143.25, "min": -48,            "mul": 0.75,                      "add": -48, "unit": "celsius" },                   "name": "Engine oil temperature"}
-  ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"21": "02"}, "freq": 1,
-  "signals": [
-    {"id": "K5_INJ_TIMING_1", "path": "Fuel", "fmt": {"bix": 176, "len": 16, "blsb": true, "max": 53686.272, "mul": 0.8192, "unit": "milliseconds" }, "name": "Fuel injection timing #1"},
-    {"id": "K5_INJ_TIMING_2", "path": "Fuel", "fmt": {"bix": 192, "len": 16, "blsb": true, "max": 53686.272, "mul": 0.8192, "unit": "milliseconds" }, "name": "Fuel injection timing #2"},
-    {"id": "K5_INJ_TIMING_3", "path": "Fuel", "fmt": {"bix": 208, "len": 16, "blsb": true, "max": 53686.272, "mul": 0.8192, "unit": "milliseconds" }, "name": "Fuel injection timing #3"},
-    {"id": "K5_INJ_TIMING_4", "path": "Fuel", "fmt": {"bix": 224, "len": 16, "blsb": true, "max": 53686.272, "mul": 0.8192, "unit": "milliseconds" }, "name": "Fuel injection timing #4"}
-  ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"21": "03"}, "freq": 1,
-  "signals": [
-    {"id": "K5_REQUESTED_TORQUE", "path": "ECU", "fmt": {"bix": 40, "len": 16, "max": 100.00641, "mul": 0.001526, "unit": "percent" }, "name": "Requested torque"}
-  ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"21": "04"}, "freq": 1,
-  "signals": [
-    {"id": "K5_FUEL_CUT",           "path": "Engine", "fmt": {"bix": 64,  "len": 8, "max": 255, "unit": "scalar" }, "name": "fuel cut"},
-    {"id": "K5_WIDE_OPEN_THROTTLE", "path": "Engine", "fmt": {"bix": 72,  "len": 8, "max": 255, "unit": "scalar" }, "name": "wide open throttle"},
-    {"id": "K5_KNOCK_DETECTED",     "path": "Engine", "fmt": {"bix": 168, "len": 8, "max": 255, "unit": "scalar" }, "name": "knock detected"}
-  ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"21": "0D"}, "freq": 1,
-  "signals": [
-    {"id": "K5_MIS_CNT_EMIS_1", "path": "Engine.Misfires", "fmt": {"bix": 48,  "len": 16, "blsb": true, "max": 65535, "unit": "scalar" }, "name": "Emission-relevant misfires, cylinder #1"},
-    {"id": "K5_MIS_CNT_EMIS_2", "path": "Engine.Misfires", "fmt": {"bix": 64,  "len": 16, "blsb": true, "max": 65535, "unit": "scalar" }, "name": "Emission-relevant misfires, cylinder #2"},
-    {"id": "K5_MIS_CNT_EMIS_3", "path": "Engine.Misfires", "fmt": {"bix": 80,  "len": 16, "blsb": true, "max": 65535, "unit": "scalar" }, "name": "Emission-relevant misfires, cylinder #3"},
-    {"id": "K5_MIS_CNT_EMIS_4", "path": "Engine.Misfires", "fmt": {"bix": 96,  "len": 16, "blsb": true, "max": 65535, "unit": "scalar" }, "name": "Emission-relevant misfires, cylinder #4"},
-    {"id": "K5_MIS_CNT_1",      "path": "Engine.Misfires", "fmt": {"bix": 176, "len": 16, "blsb": true, "max": 65535, "unit": "scalar" }, "name": "Misfires total counter, cylinder #1"},
-    {"id": "K5_MIS_CNT_2",      "path": "Engine.Misfires", "fmt": {"bix": 192, "len": 16, "blsb": true, "max": 65535, "unit": "scalar" }, "name": "Misfires total counter, cylinder #2"},
-    {"id": "K5_MIS_CNT_3",      "path": "Engine.Misfires", "fmt": {"bix": 208, "len": 16, "blsb": true, "max": 65535, "unit": "scalar" }, "name": "Misfires total counter, cylinder #3"},
-    {"id": "K5_MIS_CNT_4",      "path": "Engine.Misfires", "fmt": {"bix": 224, "len": 16, "blsb": true, "max": 65535, "unit": "scalar" }, "name": "Misfires total counter, cylinder #4"},
-    {"id": "K5_MIS_CNT_ALL",    "path": "Engine.Misfires", "fmt": {"bix": 432, "len": 16, "blsb": true, "max": 65535, "unit": "scalar" }, "name": "Misfires total counter, all cylinders"}
-  ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"21": "13"}, "freq": 1,
-  "signals": [
-    {"id": "K5_TIMING_ADVANCE_1",    "path": "Engine", "fmt": {"bix": 32,  "len": 8, "max": 95.25, "min": -96, "mul": 0.75, "sign": true, "unit": "degrees"    }, "name": "Timing advance #1"},
-    {"id": "K5_TIMING_ADVANCE_2",    "path": "Engine", "fmt": {"bix": 40,  "len": 8, "max": 95.25, "min": -96, "mul": 0.75, "sign": true, "unit": "degrees"    }, "name": "Timing advance #2"},
-    {"id": "K5_TIMING_ADVANCE_3",    "path": "Engine", "fmt": {"bix": 48,  "len": 8, "max": 95.25, "min": -96, "mul": 0.75, "sign": true, "unit": "degrees"    }, "name": "Timing advance #3"},
-    {"id": "K5_TIMING_ADVANCE_4",    "path": "Engine", "fmt": {"bix": 56,  "len": 8, "max": 95.25, "min": -96, "mul": 0.75, "sign": true, "unit": "degrees"    }, "name": "Timing advance #4"},
-    {"id": "K5_BAROMETRIC_PRESSURE", "path": "Engine", "fmt": {"bix": 312, "len": 8, "max": 127.5,             "mul": 0.5,                "unit": "kilopascal" }, "name": "Barometric pressure"}
-  ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"21": "14"}, "freq": 1,
-  "signals": [
-    {"id": "K5_COMMANDED_THROTTLE_ACTUATOR",                 "path": "Engine",   "fmt": {"bix": 40,  "len": 8,  "max": 99.609375,                "mul": 0.390625,                                    "unit": "percent" },                "name": "Commanded throttle actuator"},
-    {"id": "K5_THROTTLE_POSITION_1",                         "path": "Engine",   "fmt": {"bix": 48,  "len": 16, "blsb": true,     "max": 799,    "min": -800,     "mul": 0.0244140625, "sign": true,                   "unit": "percent" },                                             "name": "Throttle position #1"},
-    {"id": "K5_THROTTLE_POSITION_2",                         "path": "Engine",   "fmt": {"bix": 64,  "len": 16, "blsb": true,     "max": 799,    "min": -800,     "mul": 0.0244140625, "sign": true,                   "unit": "percent" },                                             "name": "Throttle position #2"},
-    {"id": "K5_THROTTLE_POSITION_SENSOR_VOLTAGE__2",         "path": "Battery",  "fmt": {"bix": 80,  "len": 16, "blsb": true,     "max": 79,                      "mul": 0.0012207031,                                 "unit": "volts"   },                                             "name": "Throttle position sensor voltage #2"},
-    {"id": "K5_COOLANT_FAN__PWM_",                           "path": "Engine",   "fmt": {"bix": 96,  "len": 8,  "max": 100,                                                                          "unit": "percent" },                "name": "Coolant)"},
-    {"id": "K5_RELATIVE_ACCELERATOR_PEDAL_POSITION_VOLTAGE", "path": "Battery",  "fmt": {"bix": 112, "len": 16, "blsb": true,     "max": 6553.4, "min": -6553.6,  "mul": 0.2,          "sign": true,                   "unit": "volts"   },                                             "name": "Relative accelerator pedal position voltage"},
-    {"id": "K5_RELATIVE_ACCELERATOR_PEDAL_POSITION",         "path": "Movement", "fmt": {"bix": 128, "len": 8,  "max": 99.609375,                "mul": 0.390625,                                    "unit": "percent" },                "name": "Relative accelerator pedal position"},
-    {"id": "K5_REQUESTED_TORQUE2",                           "path": "Engine",   "fmt": {"bix": 176, "len": 16, "max": 100.00641,                "mul": 0.001526,                                    "unit": "percent" },                "name": "Requested torque, 2"},
-    {"id": "K5_THROTTLE_POSITION_SENSOR_VOLTAGE__1",         "path": "Battery",  "fmt": {"bix": 360, "len": 16, "blsb": true,     "max": 79,                      "mul": 0.0012207031,                                 "unit": "volts"   },                                             "name": "Throttle position sensor voltage #1"}
-  ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"21": "15"}, "freq": 1,
-  "signals": [
-    {"id": "K5_STFT_B1_IDLE", "path": "Fuel", "fmt": {"bix": 48, "len": 16, "blsb": true, "max": 100, "mul": 0.046875,                  "sign": true, "unit": "percent" }, "name": "Short term fuel % trim, bank 1 idle"},
-    {"id": "K5_STFT_B1",      "path": "Fuel", "fmt": {"bix": 80, "len": 16, "blsb": true, "max": 100, "mul": 0.0030517578, "add": -100,               "unit": "percent" }, "name": "Short term fuel % trim, bank 1"}
-  ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"21": "16"}, "freq": 1,
-  "signals": [
-    {"id": "K5_ACTUAL_LAMBDA_VALUE",            "path": "Engine", "fmt": {"bix": 88,  "len": 16, "blsb": true, "max": 16,        "mul": 16,   "div": 65535, "unit": "scalar"  }, "name": "Actual lambda value"},
-    {"id": "K5_LABMDA_SENSOR_CORRECTION_VALUE", "path": "Engine", "fmt": {"bix": 120, "len": 16, "blsb": true, "max": 100.26855, "mul": 15.3, "div": 10000, "unit": "percent" }, "name": "Labmda sensor correction value"}
-  ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"21": "19"}, "freq": 1,
-  "signals": [
-    {"id": "K5_FUEL_ADAPTATION_AT_IDLE",      "path": "Engine", "fmt": {"bix": 40,  "len": 16, "blsb": true, "max": 1536.11696, "min": -1536.16384, "mul": 468.8, "div": 10000,   "sign": true,                   "unit": "percent" },                                   "name": "Fuel adaptation at idle"},
-    {"id": "K5_FUEL_ADAPTATION_AT_PART_LOAD", "path": "Engine", "fmt": {"bix": 56,  "len": 16, "blsb": true, "max": 1536.11696, "min": -1536.16384, "mul": 468.8, "div": 10000,   "sign": true,                   "unit": "percent" },                                   "name": "Fuel adaptation at part load"},
-    {"id": "K5_KNOCK_RETARD_1",               "path": "Engine", "fmt": {"bix": 168, "len": 8,  "max": 0,     "min": -191.25,    "mul": 0.75,                      "add": -191.25,               "unit": "degrees" },                "name": "Knock retard cylinder # 1"},
-    {"id": "K5_KNOCK_RETARD_2",               "path": "Engine", "fmt": {"bix": 176, "len": 8,  "max": 0,     "min": -191.25,    "mul": 0.75,                      "add": -191.25,               "unit": "degrees" },                "name": "Knock retard cylinder # 2"},
-    {"id": "K5_KNOCK_RETARD_3",               "path": "Engine", "fmt": {"bix": 184, "len": 8,  "max": 0,     "min": -191.25,    "mul": 0.75,                      "add": -191.25,               "unit": "degrees" },                "name": "Knock retard cylinder # 3"},
-    {"id": "K5_KNOCK_RETARD_4",               "path": "Engine", "fmt": {"bix": 192, "len": 8,  "max": 0,     "min": -191.25,    "mul": 0.75,                      "add": -191.25,               "unit": "degrees" },                "name": "Knock retard cylinder # 4"}
+    {"id": "K5_BMS_SOC",        "path": "Battery", "fmt": {"bix": 32,  "len": 8,  "max": 100,                "div": 2,                 "unit": "percent"   }, "name": "State of charge",           "suggestedMetric": "stateOfCharge"},
+    {"id": "K5_BMS_CHG_PWR",    "path": "Battery", "fmt": {"bix": 40,  "len": 16, "max": 655.35,             "div": 100,               "unit": "kilowatts" }, "name": "Available charge power"},
+    {"id": "K5_BMS_DISCHG_PWR", "path": "Battery", "fmt": {"bix": 56,  "len": 16, "max": 655.35,             "div": 100,               "unit": "kilowatts" }, "name": "Available discharge power"},
+    {"id": "K5_BMS_MIN_TEMP",   "path": "Battery", "fmt": {"bix": 120, "len": 8,  "max": 80,     "min": -40,             "sign": true, "unit": "celsius"   }, "name": "Battery min temp"},
+    {"id": "K5_BMS_MOD1_TEMP",  "path": "Battery", "fmt": {"bix": 128, "len": 8,  "max": 80,     "min": -40,             "sign": true, "unit": "celsius"   }, "name": "Battery mod 1 temp"},
+    {"id": "K5_BMS_MOD2_TEMP",  "path": "Battery", "fmt": {"bix": 136, "len": 8,  "max": 80,     "min": -40,             "sign": true, "unit": "celsius"   }, "name": "Battery mod 2 temp"},
+    {"id": "K5_BMS_MOD3_TEMP",  "path": "Battery", "fmt": {"bix": 144, "len": 8,  "max": 80,     "min": -40,             "sign": true, "unit": "celsius"   }, "name": "Battery mod 3 temp"},
+    {"id": "K5_BMS_MOD4_TEMP",  "path": "Battery", "fmt": {"bix": 152, "len": 8,  "max": 80,     "min": -40,             "sign": true, "unit": "celsius"   }, "name": "Battery mod 4 temp"}
   ]},
 { "hdr": "7E0", "rax": "7E8", "cmd": {"22": "E001"}, "freq": 1, "dbgfilter": { "to": 2020, "years": [2024], "from": 2027 },
   "signals": [
@@ -241,9 +141,9 @@
     {"id": "K5_KNOCK_LEARN_3",       "path": "Engine", "fmt": {"bix": 176, "len": 8, "max": 25.4, "min": -25.6, "div": 5, "sign": true, "unit": "degrees" }, "name": "Knock learn cylinder 3"},
     {"id": "K5_KNOCK_LEARN_4",       "path": "Engine", "fmt": {"bix": 184, "len": 8, "max": 25.4, "min": -25.6, "div": 5, "sign": true, "unit": "degrees" }, "name": "Knock learn cylinder 4"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "E021"}, "freq": 0.1, "dbgfilter": { "to": 2024, "from": 2027 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "E021"}, "freq": 0.1, "filter": { "from": 2024 }, "dbgfilter": { "to": 2024, "from": 2027 },
   "signals": [
-    {"id": "K5_TURBO_BOOST", "path": "Engine", "fmt": {"bix": 56,  "len": 16, "max": 66.81, "min": -10,             "div": 831.55690902, "add": -12, "unit": "psi"     }, "name": "Turbo boost pressure (gauge)"},
+    {"id": "K5_TURBO_BOOST", "path": "Engine", "fmt": {"bix": 56,  "len": 16, "max": 66.81, "min": -10,             "div": 831.55690902, "add": -12, "unit": "psi"     }, "name": "Turbo boost pressure"},
     {"id": "K5_WG_VOLTAGE",  "path": "Engine", "fmt": {"bix": 392, "len": 16, "max": 10,                "mul": 10,  "div": 65535,                    "unit": "volts"   }, "name": "Waste gate voltage"},
     {"id": "K5_WG_DUTY",     "path": "Engine", "fmt": {"bix": 408, "len": 16, "max": 200,               "mul": 200, "div": 65535,                    "unit": "percent" }, "name": "Waste gate duty"},
     {"id": "K5_WG_POSITION", "path": "Engine", "fmt": {"bix": 424, "len": 16, "max": 400,               "mul": 400, "div": 65535,                    "unit": "percent" }, "name": "Waste gate position"},
@@ -251,19 +151,19 @@
   ]},
 { "hdr": "7E1", "rax": "7E9", "cmd": {"22": "01A0"}, "freq": 1, "dbgfilter": { "to": 2020, "years": [2022, 2024], "from": 2027 },
   "signals": [
-    {"id": "K5_RPM",                   "path": "Movement",     "fmt": {"bix": 32,  "len": 16, "max": 16383.75,              "mul": 0.25,                          "unit": "rpm"               }, "name": "[TCM] engine RPM"},
-    {"id": "K5_VSS_7E1",               "path": "Movement",     "fmt": {"bix": 48,  "len": 8,  "max": 255,                                                         "unit": "kilometersPerHour" }, "name": "[TCM] vehicle speed",                       "suggestedMetric": "speed"},
-    {"id": "K5_REL_APP",               "path": "Movement",     "fmt": {"bix": 64,  "len": 8,  "max": 100,                   "mul": 100,  "div": 255,              "unit": "percent"           }, "name": "[TCM] relative accelerator pedal position"},
-    {"id": "K5_TURBINE_SPEED",         "path": "Movement",     "fmt": {"bix": 72,  "len": 16, "max": 16383.75,              "mul": 0.25,                          "unit": "rpm"               }, "name": "[TCM] turbine speed"},
-    {"id": "K5_OUTPUT_SPEED",          "path": "Movement",     "fmt": {"bix": 88,  "len": 16, "max": 16383.75,              "mul": 0.25,                          "unit": "rpm"               }, "name": "[TCM] output speed"},
-    {"id": "K5_ATF_T",                 "path": "Engine",       "fmt": {"bix": 104, "len": 8,  "max": 215,      "min": -40,                           "add": -40,  "unit": "celsius"           }, "name": "[TCM] ATF temperature"},
-    {"id": "K5_TORQUE_CONVERTER_SLIP", "path": "Engine",       "fmt": {"bix": 128, "len": 16, "max": 15871.75, "min": -512, "mul": 0.25,             "add": -512, "unit": "rpm"               }, "name": "[TCM] torque converter slip"},
-    {"id": "K5_GEAR",                  "path": "Transmission", "fmt": {"bix": 160, "len": 8,  "max": 255,                                                         "unit": "scalar"            }, "name": "[TCM] selector d"},
-    {"id": "K5_CURRENT_GEAR",          "path": "Transmission", "fmt": {"bix": 168, "len": 8,  "max": 255,                                                         "unit": "scalar"            }, "name": "[TCM] current gear"},
-    {"id": "K5_COMMANDED_GEAR",        "path": "Transmission", "fmt": {"bix": 176, "len": 8,  "max": 255,                                                         "unit": "scalar"            }, "name": "[TCM] commanded gear"},
-    {"id": "K5_BRAKE_PEDAL",           "path": "Control",      "fmt": {"bix": 192, "len": 8,  "max": 255,                                                         "unit": "scalar"            }, "name": "[TCM] brake pedal"}
+    {"id": "K5_RPM",                   "path": "Movement",     "fmt": {"bix": 32,  "len": 16, "max": 16383.75,                          "div": 4,                "unit": "rpm"               }, "name": "Engine RPM"},
+    {"id": "K5_VSS_7E1",               "path": "Movement",     "fmt": {"bix": 48,  "len": 8,  "max": 255,                                                        "unit": "kilometersPerHour" }, "name": "Vehicle speed",                            "suggestedMetric": "speed"},
+    {"id": "K5_REL_APP",               "path": "Movement",     "fmt": {"bix": 64,  "len": 8,  "max": 100,                   "mul": 100, "div": 255,              "unit": "percent"           }, "name": "Relative accelerator pedal position"},
+    {"id": "K5_TURBINE_SPEED",         "path": "Movement",     "fmt": {"bix": 72,  "len": 16, "max": 16383.75,                          "div": 4,                "unit": "rpm"               }, "name": "Turbine speed"},
+    {"id": "K5_OUTPUT_SPEED",          "path": "Movement",     "fmt": {"bix": 88,  "len": 16, "max": 16383.75,                          "div": 4,                "unit": "rpm"               }, "name": "Output speed"},
+    {"id": "K5_ATF_T",                 "path": "Engine",       "fmt": {"bix": 104, "len": 8,  "max": 215,      "min": -40,                          "add": -40,  "unit": "celsius"           }, "name": "Automatic transmission fluid temperature", "suggestedMetric": "transmissionFluidTemperature"},
+    {"id": "K5_TORQUE_CONVERTER_SLIP", "path": "Engine",       "fmt": {"bix": 128, "len": 16, "max": 15871.75, "min": -512,             "div": 4,   "add": -512, "unit": "rpm"               }, "name": "Torque converter slip"},
+    {"id": "K5_GEAR",                  "path": "Transmission", "fmt": {"bix": 160, "len": 8,  "max": 255,                                                        "unit": "scalar"            }, "name": "Gear selector"},
+    {"id": "K5_CURRENT_GEAR",          "path": "Transmission", "fmt": {"bix": 168, "len": 8,  "max": 255,                                                        "unit": "scalar"            }, "name": "Current gear"},
+    {"id": "K5_COMMANDED_GEAR",        "path": "Transmission", "fmt": {"bix": 176, "len": 8,  "max": 255,                                                        "unit": "scalar"            }, "name": "Commanded gear"},
+    {"id": "K5_BRAKE_PEDAL",           "path": "Control",      "fmt": {"bix": 192, "len": 8,  "max": 255,                                                        "unit": "scalar"            }, "name": "Brake pedal"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "01A4"}, "freq": 1, "dbgfilter": { "to": 2024, "from": 2026 },
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "01A4"}, "freq": 1, "filter": { "from": 2024 }, "dbgfilter": { "to": 2024, "from": 2026 },
   "signals": [
     {"id": "K5_GEAR_CUR",   "path": "Transmission", "fmt": {"bix": 188, "len": 4,  "max": 15,                                    "unit": "scalar"  }, "name": "Current gear"},
     {"id": "K5_GEAR_NXT",   "path": "Transmission", "fmt": {"bix": 196, "len": 4,  "max": 15,                                    "unit": "scalar"  }, "name": "Next gear"},

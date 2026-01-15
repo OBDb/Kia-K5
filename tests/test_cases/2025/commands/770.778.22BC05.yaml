@@ -1,4 +1,4 @@
-command_id: 770.778.22BC05|f=2021-
+command_id: 770.778.22BC05
 test_cases:
 - expected_values:
     K5_HAZARD_SW: 0
