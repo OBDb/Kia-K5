@@ -1,4 +1,4 @@
-command_id: 770.778.22BC09|f=2021-
+command_id: 770.778.22BC09
 test_cases:
 - expected_values:
     K5_HL_HIGH: 0

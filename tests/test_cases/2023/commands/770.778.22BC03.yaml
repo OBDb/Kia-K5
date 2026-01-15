@@ -1,4 +1,4 @@
-command_id: 770.778.22BC03|f=2021-
+command_id: 770.778.22BC03
 test_cases:
 - expected_values:
     K5_BELT_DRIV: 1
@@ -27,7 +27,21 @@ test_cases:
     K5_TRUNK: 0
   response: |-
     778100B62BC03FDFE20
-    778216200660400AAAA
+    778216200060400AAAA
+- expected_values:
+    K5_BELT_DRIV: 1
+    K5_BELT_PASS: 1
+    K5_DEFOG_SW: 1
+    K5_DOOR_FL: 0
+    K5_DOOR_FR: 0
+    K5_DOOR_RL: 0
+    K5_DOOR_RR: 0
+    K5_HANDBRAKE: 0
+    K5_HOOD: 0
+    K5_TRUNK: 0
+  response: |-
+    778100B62BC03FDFE20
+    778216200660002AAAA
 - expected_values:
     K5_BELT_DRIV: 1
     K5_BELT_PASS: 1
@@ -35,13 +49,13 @@ test_cases:
     K5_DOOR_FL: 0
     K5_DOOR_FR: 0
     K5_DOOR_RL: 0
-    K5_DOOR_RR: 0
+    K5_DOOR_RR: 1
     K5_HANDBRAKE: 1
     K5_HOOD: 0
     K5_TRUNK: 0
   response: |-
     778100B62BC03FDFE20
-    77821620A660000AAAA
+    77821620E060000AAAA
 - expected_values:
     K5_BELT_DRIV: 1
     K5_BELT_PASS: 1
@@ -50,9 +64,23 @@ test_cases:
     K5_DOOR_FR: 0
     K5_DOOR_RL: 0
     K5_DOOR_RR: 0
-    K5_HANDBRAKE: 1
+    K5_HANDBRAKE: 0
     K5_HOOD: 0
     K5_TRUNK: 1
   response: |-
     778100B62BC03FDFE20
-    77821628A060000AAAA
+    778216280060000AAAA
+- expected_values:
+    K5_BELT_DRIV: 0
+    K5_BELT_PASS: 1
+    K5_DEFOG_SW: 0
+    K5_DOOR_FL: 0
+    K5_DOOR_FR: 0
+    K5_DOOR_RL: 0
+    K5_DOOR_RR: 0
+    K5_HANDBRAKE: 0
+    K5_HOOD: 0
+    K5_TRUNK: 0
+  response: |-
+    778100B62BC03FFFE20
+    778216200040000AAAA
