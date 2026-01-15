@@ -1,4 +1,4 @@
-command_id: 770.778.22BC03|f=2021-
+command_id: 770.778.22BC03
 test_cases:
 - expected_values:
     K5_DOOR_FL: 0
