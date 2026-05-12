@@ -1,6 +1,15 @@
 command_id: 7C6.7CE.22B002|fc=1
 test_cases:
 - expected_values:
+    K5_FLI_VOL: 42
+    K5_ODO_KM: 0
+    K5_ODO_MI: 61215
+    K5_VPWR: 13.75
+  response: |-
+    7CE100F62B002D00000
+    7CE21002AB000000000
+    7CE22EF1F0000000000
+- expected_values:
     K5_FLI_VOL: 90
     K5_ODO_KM: 0
     K5_ODO_MI: 60516
@@ -45,15 +54,6 @@ test_cases:
     7CE100F62B002D00000
     7CE210060B000000000
     7CE22EC630000000000
-- expected_values:
-    K5_FLI_VOL: 99
-    K5_ODO_KM: 0
-    K5_ODO_MI: 60500
-    K5_VPWR: 13.82812
-  response: |-
-    7CE100F62B002D00000
-    7CE210063B100000000
-    7CE22EC540000000000
 - expected_values:
     K5_FLI_VOL: 255
     K5_ODO_KM: 0
