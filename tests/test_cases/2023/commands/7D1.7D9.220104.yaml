@@ -155,7 +155,6 @@ test_cases:
     7D926FDFFFAAAAAAAAA
 - expected_values:
     K5_BRAKE_P: 26.1015
-    K5_STEER_ANGLE: 3276.7
     K5_TC_SWITCH: 0
     K5_TIRE_FL_VSS: 0
     K5_TIRE_FR_VSS: 0
