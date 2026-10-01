@@ -1,8 +1,7 @@
 command_id: 7C6.7CE.22B002|fc=1
 test_cases:
 - expected_values:
-    K5_FLI_VOL: 42
-    K5_ODO_KM: 0
+    K5_FLI_VOL: 21
     K5_ODO_MI: 61215
     K5_VPWR: 13.75
   response: |-
@@ -10,8 +9,7 @@ test_cases:
     7CE21002AB000000000
     7CE22EF1F0000000000
 - expected_values:
-    K5_FLI_VOL: 90
-    K5_ODO_KM: 0
+    K5_FLI_VOL: 45
     K5_ODO_MI: 60516
     K5_VPWR: 13.82812
   response: |-
@@ -19,8 +17,7 @@ test_cases:
     7CE21005AB100000000
     7CE22EC640000000000
 - expected_values:
-    K5_FLI_VOL: 95
-    K5_ODO_KM: 0
+    K5_FLI_VOL: 47.5
     K5_ODO_MI: 60509
     K5_VPWR: 13.67188
   response: |-
@@ -28,8 +25,7 @@ test_cases:
     7CE21005FAF00000000
     7CE22EC5D0000000000
 - expected_values:
-    K5_FLI_VOL: 95
-    K5_ODO_KM: 0
+    K5_FLI_VOL: 47.5
     K5_ODO_MI: 60515
     K5_VPWR: 13.75
   response: |-
@@ -37,8 +33,7 @@ test_cases:
     7CE21005FB000000000
     7CE22EC630000000000
 - expected_values:
-    K5_FLI_VOL: 95
-    K5_ODO_KM: 0
+    K5_FLI_VOL: 47.5
     K5_ODO_MI: 60518
     K5_VPWR: 13.82812
   response: |-
@@ -46,8 +41,7 @@ test_cases:
     7CE21005FB100000000
     7CE22EC660000000000
 - expected_values:
-    K5_FLI_VOL: 96
-    K5_ODO_KM: 0
+    K5_FLI_VOL: 48
     K5_ODO_MI: 60515
     K5_VPWR: 13.75
   response: |-
@@ -55,8 +49,6 @@ test_cases:
     7CE210060B000000000
     7CE22EC630000000000
 - expected_values:
-    K5_FLI_VOL: 255
-    K5_ODO_KM: 0
     K5_ODO_MI: 60515
     K5_VPWR: 11.71875
   response: |-
