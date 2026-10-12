@@ -1,7 +1,7 @@
 command_id: 7E0.7E8.22E011
 test_cases:
 - expected_values:
-    K5_CALC_OIL_T: -40
+    K5_CALC_OIL_T: null
   response: |-
     7E8103462E0111FFA5F
     7E8210D727272727200
@@ -12,7 +12,7 @@ test_cases:
     7E826008B2E8A2E0000
     7E82700000000AAAAAA
 - expected_values:
-    K5_CALC_OIL_T: -40
+    K5_CALC_OIL_T: null
   response: |-
     7E8103462E0111FFA5F
     7E8210D727272727200
@@ -23,7 +23,7 @@ test_cases:
     7E82600782E772E0000
     7E82700000000AAAAAA
 - expected_values:
-    K5_CALC_OIL_T: -40
+    K5_CALC_OIL_T: null
   response: |-
     7E8103462E0111FFA5F
     7E8210D747474747400
@@ -34,7 +34,7 @@ test_cases:
     7E826006F2E6E2E0000
     7E82700000000AAAAAA
 - expected_values:
-    K5_CALC_OIL_T: -40
+    K5_CALC_OIL_T: null
   response: |-
     7E8103462E0111FFA5F
     7E8210D757575757500
@@ -45,7 +45,7 @@ test_cases:
     7E826004C2E4B2E0000
     7E82700000000AAAAAA
 - expected_values:
-    K5_CALC_OIL_T: -40
+    K5_CALC_OIL_T: null
   response: |-
     7E8103462E0111FFA5F
     7E8210D7B7B7B7B7B00
@@ -56,7 +56,7 @@ test_cases:
     7E82600812E802E0000
     7E82700000000AAAAAA
 - expected_values:
-    K5_CALC_OIL_T: -40
+    K5_CALC_OIL_T: null
   response: |-
     7E8103462E0111FFA5F
     7E8210D7B7B7B7B7B00
@@ -67,7 +67,7 @@ test_cases:
     7E82600782E772E0000
     7E82700000000AAAAAA
 - expected_values:
-    K5_CALC_OIL_T: -40
+    K5_CALC_OIL_T: null
   response: |-
     7E8103462E0111FFA5F
     7E8210D7D7D7D7D7D00
@@ -78,7 +78,7 @@ test_cases:
     7E82600662E652E0000
     7E82700000000AAAAAA
 - expected_values:
-    K5_CALC_OIL_T: -40
+    K5_CALC_OIL_T: null
   response: |-
     7E8103462E0111FFA5F
     7E8210D808080808000
@@ -89,7 +89,7 @@ test_cases:
     7E82600812E802E0000
     7E82700000000AAAAAA
 - expected_values:
-    K5_CALC_OIL_T: -40
+    K5_CALC_OIL_T: null
   response: |-
     7E8103462E0111FFA5F
     7E8210D828282828200
@@ -100,7 +100,7 @@ test_cases:
     7E826006F2E6E2E0000
     7E82700000000AAAAAA
 - expected_values:
-    K5_CALC_OIL_T: -40
+    K5_CALC_OIL_T: null
   response: |-
     7E8103462E0111FFA5F
     7E8210D868686858600
@@ -111,7 +111,7 @@ test_cases:
     7E82600812E802E0000
     7E82700000000AAAAAA
 - expected_values:
-    K5_CALC_OIL_T: -40
+    K5_CALC_OIL_T: null
   response: |-
     7E8103462E0111FFA5F
     7E8210D8E8E8E8E8E00
@@ -122,7 +122,7 @@ test_cases:
     7E826004C2E4B2E0000
     7E82700000000AAAAAA
 - expected_values:
-    K5_CALC_OIL_T: -40
+    K5_CALC_OIL_T: null
   response: |-
     7E8103462E0111FFA5F
     7E8210D8F8F8F8F8F00
@@ -133,7 +133,7 @@ test_cases:
     7E82600662E652E0000
     7E82700000000AAAAAA
 - expected_values:
-    K5_CALC_OIL_T: -40
+    K5_CALC_OIL_T: null
   response: |-
     7E8103462E0111FFA5F
     7E8210D8F8F8F8F8F00
@@ -144,7 +144,7 @@ test_cases:
     7E826005D2E5C2E0000
     7E82700000000AAAAAA
 - expected_values:
-    K5_CALC_OIL_T: -40
+    K5_CALC_OIL_T: null
   response: |-
     7E8103462E0111FFA5F
     7E8210D929292929200
@@ -155,7 +155,7 @@ test_cases:
     7E826006F2E6A2E0000
     7E82700000000AAAAAA
 - expected_values:
-    K5_CALC_OIL_T: -40
+    K5_CALC_OIL_T: null
   response: |-
     7E8103462E0111FFA5F
     7E8210D9D9D9D9D9D00
@@ -166,7 +166,7 @@ test_cases:
     7E82600662E652E0000
     7E82700000000AAAAAA
 - expected_values:
-    K5_CALC_OIL_T: -40
+    K5_CALC_OIL_T: null
   response: |-
     7E8103462E0111FFA5F
     7E8210DA2A3A3A3A200
@@ -177,7 +177,7 @@ test_cases:
     7E826005D2E5C2E0000
     7E82700000000AAAAAA
 - expected_values:
-    K5_CALC_OIL_T: -40
+    K5_CALC_OIL_T: null
   response: |-
     7E8103462E0111FFA5F
     7E8210DA6A6A6A6A600
@@ -188,7 +188,7 @@ test_cases:
     7E82600662E612E0000
     7E82700000000AAAAAA
 - expected_values:
-    K5_CALC_OIL_T: -40
+    K5_CALC_OIL_T: null
   response: |-
     7E8103462E0111FFA5F
     7E8210DAFAFAFAFAF00
@@ -199,7 +199,7 @@ test_cases:
     7E82600552E512E0000
     7E82700000000AAAAAA
 - expected_values:
-    K5_CALC_OIL_T: -40
+    K5_CALC_OIL_T: null
   response: |-
     7E8103462E0111FFA5F
     7E8210DC0C0C0C0C000
