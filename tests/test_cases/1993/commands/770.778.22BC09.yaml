@@ -1,0 +1,20 @@
+command_id: 770.778.22BC09
+test_cases:
+- expected_values:
+    K5_HL_HIGH: 0
+    K5_HL_LOW: 0
+  response: |-
+    778100B62BC09009003
+    77821CF0008C000AAAA
+- expected_values:
+    K5_HL_HIGH: 0
+    K5_HL_LOW: 0
+  response: |-
+    778100B62BC09009003
+    77821CF000C0030AAAA
+- expected_values:
+    K5_HL_HIGH: 0
+    K5_HL_LOW: 0
+  response: |-
+    778100B62BC09009003
+    77821CF000CC000AAAA
