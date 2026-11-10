@@ -533,7 +533,7 @@
   ]},
 { "hdr": "7E0", "rax": "7E8", "din": "03", "dbg": true, "cmd": {"22": "ED05"}, "freq": 0.25,
   "signals": [
-    {"id": "K5_GEAR_INFORMATION", "path": "Transmission", "fmt": {"bix": 176, "len": 8, "max": 255, "unit": "scalar" }, "name": "Gear information"}
+    {"id": "K5_GEAR_INFORMATION", "path": "Transmission", "fmt": {"bix": 176, "len": 8, "max": 255, "unit": "scalar" }, "name": "Gear information", "suggestedMetric": "gear"}
   ]},
 { "hdr": "7E0", "rax": "7E8", "fcm1": true, "dbg": true, "cmd": {"22": "ED07"}, "freq": 5,
   "signals": [
@@ -553,7 +553,7 @@
     {"id": "K5_OUTPUT_SPEED_7E1",          "path": "Engine",       "fmt": {"bix": 88,  "len": 16, "max": 16383.75,                          "div": 4,                "unit": "rpm"               }, "name": "Output speed"},
     {"id": "K5_ATF_T_7E1",                 "path": "Engine",       "fmt": {"bix": 104, "len": 8,  "max": 215,      "min": -40,                          "add": -40,  "unit": "celsius"           }, "name": "Automatic transmission fluid temperature", "suggestedMetric": "transmissionFluidTemperature"},
     {"id": "K5_TORQUE_CONVERTER_SLIP_7E1", "path": "Engine",       "fmt": {"bix": 128, "len": 16, "max": 15871.75, "min": -512,             "div": 4,   "add": -512, "unit": "rpm"               }, "name": "Torque converter slip"},
-    {"id": "K5_CURRENT_GEAR_7E1",          "path": "Transmission", "fmt": {"bix": 168, "len": 8,  "max": 255,                                                        "unit": "scalar"            }, "name": "Current gear"},
+    {"id": "K5_CURRENT_GEAR_7E1",          "path": "Transmission", "fmt": {"bix": 168, "len": 8,  "max": 255,                                                        "unit": "scalar"            }, "name": "Current gear",                             "suggestedMetric": "gear"},
     {"id": "K5_COMMANDED_GEAR_7E1",        "path": "Transmission", "fmt": {"bix": 176, "len": 8,  "max": 255,                                                        "unit": "scalar"            }, "name": "Commanded gear"},
     {"id": "K5_BRAKE_PEDAL_7E1",           "path": "Control",      "fmt": {"bix": 192, "len": 8,  "max": 255,                                                        "unit": "scalar"            }, "name": "Brake pedal"}
   ]},
@@ -561,7 +561,7 @@
   "signals": [
     {"id": "K5_CURRENT_GEAR_7E1_2", "path": "Transmission", "fmt": {"bix": 32, "len": 8, "max": 255, "unit": "scalar" }, "name": "Current gear"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "01A0"}, "freq": 1, "dbgfilter": { "years": [2001, 2002, 2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2024], "from": 2027 },
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "01A0"}, "freq": 0.25, "dbgfilter": { "years": [2001, 2002, 2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2024], "from": 2027 },
   "signals": [
     {"id": "K5_RPM",                   "path": "Movement",     "fmt": {"bix": 32,  "len": 16, "max": 16383.75,                          "div": 4,                "unit": "rpm"               }, "name": "Engine RPM",                               "suggestedMetric": "engineSpeed"},
     {"id": "K5_VSS_7E1",               "path": "Movement",     "fmt": {"bix": 48,  "len": 8,  "max": 255,                                                        "unit": "kilometersPerHour" }, "name": "Vehicle speed",                            "suggestedMetric": "speed"},
@@ -570,15 +570,36 @@
     {"id": "K5_OUTPUT_SPEED",          "path": "Movement",     "fmt": {"bix": 88,  "len": 16, "max": 16383.75,                          "div": 4,                "unit": "rpm"               }, "name": "Output speed"},
     {"id": "K5_ATF_T",                 "path": "Engine",       "fmt": {"bix": 104, "len": 8,  "max": 215,      "min": -40,                          "add": -40,  "unit": "celsius"           }, "name": "Automatic transmission fluid temperature", "suggestedMetric": "transmissionFluidTemperature"},
     {"id": "K5_TORQUE_CONVERTER_SLIP", "path": "Engine",       "fmt": {"bix": 128, "len": 16, "max": 15871.75, "min": -512,             "div": 4,   "add": -512, "unit": "rpm"               }, "name": "Torque converter slip"},
-    {"id": "K5_GEAR",                  "path": "Transmission", "fmt": {"bix": 160, "len": 8,  "max": 255,                                                        "unit": "scalar"            }, "name": "Gear selector"},
-    {"id": "K5_CURRENT_GEAR",          "path": "Transmission", "fmt": {"bix": 168, "len": 8,  "max": 255,                                                        "unit": "scalar"            }, "name": "Current gear"},
+    {"id": "K5_CURRENT_GEAR",          "path": "Transmission", "fmt": {"bix": 168, "len": 8,  "max": 255,                                                        "unit": "scalar"            }, "name": "Current gear",                             "suggestedMetric": "gear"},
     {"id": "K5_COMMANDED_GEAR",        "path": "Transmission", "fmt": {"bix": 176, "len": 8,  "max": 255,                                                        "unit": "scalar"            }, "name": "Commanded gear"},
-    {"id": "K5_BRAKE_PEDAL",           "path": "Control",      "fmt": {"bix": 192, "len": 8,  "max": 255,                                                        "unit": "scalar"            }, "name": "Brake pedal"}
+    {"id": "K5_BRAKE_PEDAL",           "path": "Control",      "fmt": {"bix": 192, "len": 8,  "max": 255,                                                        "unit": "scalar"            }, "name": "Brake pedal"},
+    {"id": "K5_GEAR", "path": "Transmission", "name": "Gear selector", "suggestedMetric": "gearSelector", "fmt": {"bix": 160, "len": 8, "map": {
+          "0":  { "description": "Park",    "value": "PARK" },
+          "5":  { "description": "Drive",   "value": "DRIVE" },
+          "6":  { "description": "Neutral", "value": "NEUTRAL" },
+          "7":  { "description": "Reverse", "value": "REVERSE" },
+          "8":  { "description": "Drive",   "value": "DRIVE" },
+          "9":  { "description": "Neutral", "value": "NEUTRAL" },
+          "10": { "description": "Reverse", "value": "REVERSE" },
+          "11": { "description": "Park",    "value": "PARK" },
+          "12": { "description": "Manual",  "value": "MANUAL" }
+        }}
+    }
   ]},
-{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "01A4"}, "freq": 1, "filter": { "from": 2024 }, "dbgfilter": { "to": 2024, "from": 2026 },
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "01A4"}, "freq": 0.25, "filter": { "from": 2024 }, "dbgfilter": { "to": 2024, "from": 2026 },
   "signals": [
-    {"id": "K5_GEAR_CUR", "path": "Transmission", "fmt": {"bix": 188, "len": 4, "max": 15, "unit": "scalar" }, "name": "Current gear"},
-    {"id": "K5_GEAR_NXT", "path": "Transmission", "fmt": {"bix": 196, "len": 4, "max": 15, "unit": "scalar" }, "name": "Next gear"}
+    {"id": "K5_GEAR_NXT", "path": "Transmission", "fmt": {"bix": 196, "len": 4, "max": 15, "unit": "scalar" }, "name": "Next gear"},
+    {"id": "K5_GEAR_CUR", "path": "Transmission", "name": "Current gear", "suggestedMetric": "gear", "fmt": {"bix": 188, "len": 4, "map": {
+          "1": { "description": "First gear",   "value": "1" },
+          "2": { "description": "Second gear",  "value": "2" },
+          "3": { "description": "Third gear",   "value": "3" },
+          "4": { "description": "Fourth gear",  "value": "4" },
+          "5": { "description": "Fifth gear",   "value": "5" },
+          "6": { "description": "Sixth gear",   "value": "6" },
+          "7": { "description": "Seventh gear", "value": "7" },
+          "8": { "description": "Eighth gear",  "value": "8" }
+        }}
+    }
   ]},
 { "hdr": "7E1", "rax": "7E9", "cmd": {"22": "01A5"}, "freq": 5, "dbgfilter": { "to": 2024, "from": 2026 },
   "signals": [
