@@ -1,7 +1,6 @@
 command_id: 7E1.7E9.2201A4|f=2024-
 test_cases:
 - expected_values:
-    K5_GEAR_CUR: 0
     K5_GEAR_NXT: 0
   response: |-
     7E910396201A4FFFFFF
@@ -14,7 +13,6 @@ test_cases:
     7E92700000000001FA7
     7E9280745AAAAAAAAAA
 - expected_values:
-    K5_GEAR_CUR: 0
     K5_GEAR_NXT: 0
   response: |-
     7E910396201A4FFFFFF
@@ -27,7 +25,6 @@ test_cases:
     7E92700000000001FA8
     7E9280743AAAAAAAAAA
 - expected_values:
-    K5_GEAR_CUR: 0
     K5_GEAR_NXT: 0
   response: |-
     7E910396201A4FFFFFF
@@ -40,7 +37,7 @@ test_cases:
     7E92700000000001FAC
     7E9280740AAAAAAAAAA
 - expected_values:
-    K5_GEAR_CUR: 1
+    K5_GEAR_CUR: '1'
     K5_GEAR_NXT: 0
   response: |-
     7E910396201A4FFFFFF
@@ -53,7 +50,6 @@ test_cases:
     7E927000000000006E2
     7E9282006AAAAAAAAAA
 - expected_values:
-    K5_GEAR_CUR: 0
     K5_GEAR_NXT: 0
   response: |-
     7E910396201A4FFFFFF
@@ -66,7 +62,7 @@ test_cases:
     7E927000000000006E3
     7E9282004AAAAAAAAAA
 - expected_values:
-    K5_GEAR_CUR: 8
+    K5_GEAR_CUR: '8'
     K5_GEAR_NXT: 0
   response: |-
     7E910396201A4FFFFFF
@@ -79,7 +75,7 @@ test_cases:
     7E927000000000006EE
     7E9281FF9AAAAAAAAAA
 - expected_values:
-    K5_GEAR_CUR: 7
+    K5_GEAR_CUR: '7'
     K5_GEAR_NXT: 0
   response: |-
     7E910396201A4FFFFFF
@@ -92,7 +88,7 @@ test_cases:
     7E927000000000006EF
     7E9281FFDAAAAAAAAAA
 - expected_values:
-    K5_GEAR_CUR: 7
+    K5_GEAR_CUR: '7'
     K5_GEAR_NXT: 0
   response: |-
     7E910396201A4FFFFFF
@@ -105,7 +101,7 @@ test_cases:
     7E927000000000006E8
     7E9282003AAAAAAAAAA
 - expected_values:
-    K5_GEAR_CUR: 6
+    K5_GEAR_CUR: '6'
     K5_GEAR_NXT: 0
   response: |-
     7E910396201A4FFFFFF
@@ -118,7 +114,7 @@ test_cases:
     7E927000000000006F0
     7E9281FF7AAAAAAAAAA
 - expected_values:
-    K5_GEAR_CUR: 7
+    K5_GEAR_CUR: '7'
     K5_GEAR_NXT: 0
   response: |-
     7E910396201A4FFFFFF
@@ -131,7 +127,6 @@ test_cases:
     7E927000000000006E9
     7E9282000AAAAAAAAAA
 - expected_values:
-    K5_GEAR_CUR: 14
     K5_GEAR_NXT: 0
   response: |-
     7E910396201A4FFFFFF
@@ -144,7 +139,6 @@ test_cases:
     7E927000000000006F2
     7E9281FFCAAAAAAAAAA
 - expected_values:
-    K5_GEAR_CUR: 0
     K5_GEAR_NXT: 0
   response: |-
     7E910396201A4FFFFFF
@@ -157,7 +151,6 @@ test_cases:
     7E927000000000006E6
     7E9282004AAAAAAAAAA
 - expected_values:
-    K5_GEAR_CUR: 9
     K5_GEAR_NXT: 0
   response: |-
     7E910396201A4FFFFFF
@@ -170,7 +163,6 @@ test_cases:
     7E92700000000000D95
     7E9281951AAAAAAAAAA
 - expected_values:
-    K5_GEAR_CUR: 9
     K5_GEAR_NXT: 0
   response: |-
     7E910396201A4FFFFFF
@@ -183,7 +175,6 @@ test_cases:
     7E927000000000006ED
     7E9281FFFAAAAAAAAAA
 - expected_values:
-    K5_GEAR_CUR: 0
     K5_GEAR_NXT: 0
   response: |-
     7E910396201A4FFFFFF
@@ -196,7 +187,6 @@ test_cases:
     7E927000000000006F0
     7E9281FFBAAAAAAAAAA
 - expected_values:
-    K5_GEAR_CUR: 9
     K5_GEAR_NXT: 0
   response: |-
     7E910396201A4FFFFFF
@@ -209,7 +199,6 @@ test_cases:
     7E92700000000000D91
     7E9281954AAAAAAAAAA
 - expected_values:
-    K5_GEAR_CUR: 15
     K5_GEAR_NXT: 0
   response: |-
     7E910396201A4FFFFFF
@@ -222,7 +211,6 @@ test_cases:
     7E927000000000006EE
     7E9281FFEAAAAAAAAAA
 - expected_values:
-    K5_GEAR_CUR: 9
     K5_GEAR_NXT: 0
   response: |-
     7E910396201A4FFFFFF
@@ -235,7 +223,7 @@ test_cases:
     7E927000000000006EC
     7E9282000AAAAAAAAAA
 - expected_values:
-    K5_GEAR_CUR: 3
+    K5_GEAR_CUR: '3'
     K5_GEAR_NXT: 0
   response: |-
     7E910396201A4FFFFFF
@@ -248,7 +236,7 @@ test_cases:
     7E927000000000006ED
     7E9281FF8AAAAAAAAAA
 - expected_values:
-    K5_GEAR_CUR: 4
+    K5_GEAR_CUR: '4'
     K5_GEAR_NXT: 0
   response: |-
     7E910396201A4FFFFFF
@@ -261,7 +249,7 @@ test_cases:
     7E927000000000006E5
     7E9282006AAAAAAAAAA
 - expected_values:
-    K5_GEAR_CUR: 4
+    K5_GEAR_CUR: '4'
     K5_GEAR_NXT: 0
   response: |-
     7E910396201A4FFFFFF
@@ -274,7 +262,7 @@ test_cases:
     7E927000000000006FD
     7E9281FF3AAAAAAAAAA
 - expected_values:
-    K5_GEAR_CUR: 2
+    K5_GEAR_CUR: '2'
     K5_GEAR_NXT: 0
   response: |-
     7E910396201A4FFFFFF
@@ -287,7 +275,6 @@ test_cases:
     7E927000000000006E8
     7E9282003AAAAAAAAAA
 - expected_values:
-    K5_GEAR_CUR: 15
     K5_GEAR_NXT: 0
   response: |-
     7E910396201A4FFFFFF
@@ -300,7 +287,6 @@ test_cases:
     7E927000000000006E9
     7E9282001AAAAAAAAAA
 - expected_values:
-    K5_GEAR_CUR: 9
     K5_GEAR_NXT: 0
   response: |-
     7E910396201A4FFFFFF
@@ -313,7 +299,6 @@ test_cases:
     7E927000000000006EF
     7E9281FFEAAAAAAAAAA
 - expected_values:
-    K5_GEAR_CUR: 10
     K5_GEAR_NXT: 0
   response: |-
     7E910396201A4FFFFFF
@@ -326,7 +311,7 @@ test_cases:
     7E927000000000006F1
     7E9281FFDAAAAAAAAAA
 - expected_values:
-    K5_GEAR_CUR: 3
+    K5_GEAR_CUR: '3'
     K5_GEAR_NXT: 0
   response: |-
     7E910396201A4FFFFFF
@@ -339,7 +324,6 @@ test_cases:
     7E927000000000006EB
     7E9281FFBAAAAAAAAAA
 - expected_values:
-    K5_GEAR_CUR: 14
     K5_GEAR_NXT: 0
   response: |-
     7E910396201A4FFFFFF
@@ -352,7 +336,6 @@ test_cases:
     7E927000000000006EC
     7E9281FFFAAAAAAAAAA
 - expected_values:
-    K5_GEAR_CUR: 12
     K5_GEAR_NXT: 0
   response: |-
     7E910396201A4FFFFFF
@@ -365,7 +348,6 @@ test_cases:
     7E92700000000001FB2
     7E9280739AAAAAAAAAA
 - expected_values:
-    K5_GEAR_CUR: 12
     K5_GEAR_NXT: 0
   response: |-
     7E910396201A4FFFFFF
@@ -378,7 +360,6 @@ test_cases:
     7E927000000000006EF
     7E9281FFEAAAAAAAAAA
 - expected_values:
-    K5_GEAR_CUR: 12
     K5_GEAR_NXT: 0
   response: |-
     7E910396201A4FFFFFF
@@ -391,7 +372,7 @@ test_cases:
     7E927000000000006E8
     7E9282002AAAAAAAAAA
 - expected_values:
-    K5_GEAR_CUR: 5
+    K5_GEAR_CUR: '5'
     K5_GEAR_NXT: 0
   response: |-
     7E910396201A4FFFFFF
@@ -404,7 +385,7 @@ test_cases:
     7E927000000000006E6
     7E9282004AAAAAAAAAA
 - expected_values:
-    K5_GEAR_CUR: 2
+    K5_GEAR_CUR: '2'
     K5_GEAR_NXT: 0
   response: |-
     7E910396201A4FFFFFF
@@ -417,7 +398,6 @@ test_cases:
     7E927000000000006E9
     7E9282000AAAAAAAAAA
 - expected_values:
-    K5_GEAR_CUR: 10
     K5_GEAR_NXT: 0
   response: |-
     7E910396201A4FFFFFF
@@ -430,7 +410,7 @@ test_cases:
     7E927000000000006EC
     7E9281FFFAAAAAAAAAA
 - expected_values:
-    K5_GEAR_CUR: 7
+    K5_GEAR_CUR: '7'
     K5_GEAR_NXT: 0
   response: |-
     7E910396201A4FFFFFF
