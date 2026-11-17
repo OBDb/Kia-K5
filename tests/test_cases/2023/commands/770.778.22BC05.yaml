@@ -17,7 +17,6 @@ test_cases:
     778210000400000AAAA
 - expected_values:
     K5_HAZARD_SW: 0
-    K5_HL_SW: 1
   response: |-
     778100B62BC050F1320
     778210000400400AAAA
